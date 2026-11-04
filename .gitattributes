@@ -1,0 +1,2 @@
+# Preserve the exported bytes recorded in plauna-manifest.json on every checkout.
+* -text

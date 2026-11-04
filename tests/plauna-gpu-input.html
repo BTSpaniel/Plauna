@@ -1,0 +1,24 @@
+<!--
+SPDX-FileCopyrightText: 2026 Jake Wehmeier (BTSpaniel) <https://github.com/BTSpaniel>
+
+SPDX-License-Identifier: LicenseRef-ParticleRealms-Alpha
+-->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Plauna GPU input fixture</title>
+  <link rel="icon" href="data:,">
+  <style>
+    body { margin: 0; font: 14px system-ui, sans-serif; background: #0b1020; color: #e4e4e7; }
+    #stage { position: relative; width: 520px; margin: 24px; }
+    /* Painted in GPU mode through Plauna's own cascade (StyleRules) */
+    .chip { display: inline-block; padding: 6px 14px; border-radius: 999px; background: #1f2937; color: #e5e7eb; }
+    .chip:hover { background: #7c3aed; color: #fff; }
+  </style>
+</head>
+<body>
+  <div id="stage"></div>
+  <script type="module" src="./plauna-gpu-input.js"></script>
+</body>
+</html>

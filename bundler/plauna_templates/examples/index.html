@@ -1,0 +1,24 @@
+<!doctype html>
+<!-- SPDX-FileCopyrightText: 2026 Jake Wehmeier (BTSpaniel) <https://github.com/BTSpaniel> -->
+<!-- SPDX-License-Identifier: MIT -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Plauna · Examples</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead"><a class="brand" href="../README.md"><span class="mark">P</span>Plauna</a><span class="version">{{PLAUNA_FULL}}</span></header>
+    <section class="intro"><p class="eyebrow">PARTICLE ENGINE · UI LIBRARY</p><h1>One interface.<br><span>Choose how it renders.</span></h1><p class="lede">Retained widgets, native interaction, and optional WebGPU painting. Run the same application from source modules or the compiled API.</p></section>
+    <div class="launch-grid">
+      <a class="launch-card showcase-card" href="./showcase.html"><span class="eyebrow">WIDGET CATALOG</span><h2>Explore the widget showcase <span aria-hidden="true">↗</span></h2><p>Browse the actual Plauna gallery, open widget stories, edit properties, switch themes, and try each render mode.</p></a>
+      <a class="launch-card" href="./source.html"><span class="eyebrow">01 · ES MODULES</span><h2>Run from source <span aria-hidden="true">↗</span></h2><p>Loads the public index.js entry and its packaged dependencies.</p></a>
+      <a class="launch-card" href="./compiled.html"><span class="eyebrow">02 · COMPILED API</span><h2>Run compiled <span aria-hidden="true">↗</span></h2><p>Loads dist/plauna.js and uses the same public Plauna API.</p></a>
+    </div>
+    <footer>Serve this directory over HTTP. GPU rendering requires WebGPU and a working adapter. <a href="../README.md">Read the guide</a>.</footer>
+  </main>
+</body>
+</html>

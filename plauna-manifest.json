@@ -1,0 +1,3170 @@
+{
+  "build_tag": "alpha",
+  "compiled_entry": "dist/plauna.js",
+  "compiled_global": "Plauna",
+  "entry": "index.js",
+  "files": {
+    ".gitattributes": {
+      "bytes": 90,
+      "sha256": "c3c14a1db97877c21d24aa274b82947498b1ab101e95d0f33ed4f734e8d68cae"
+    },
+    "AUTHORS": {
+      "bytes": 355,
+      "sha256": "5a171090ac27fbfd2de306a84ea54f1ad93940a81c361306d7d70f351688039e"
+    },
+    "CHANGELOG.md": {
+      "bytes": 1568,
+      "sha256": "f8a4f3004d68226b26a3f74841a68ef3dd3959d22fac158260c7cab90ee3d461"
+    },
+    "LICENSE": {
+      "bytes": 1499,
+      "sha256": "eeb58771766aa67b9b8e725c0d0bd59d4c05270818860ad58f22f4fabaa3772d"
+    },
+    "LICENSES/LicenseRef-ParticleRealms-Alpha.txt": {
+      "bytes": 1051,
+      "sha256": "8e25a0dc4694986199b297c005c6d37ce79164eb26a81f0bf70e184e2d73e902"
+    },
+    "NOTICE.md": {
+      "bytes": 9143,
+      "sha256": "f15b10eef421b7947b94b2f5171b2a448909d90234b3503c50726c6791c2ae88"
+    },
+    "README.md": {
+      "bytes": 13245,
+      "sha256": "7421111b0800494eff8d95f3830aedff0267105ab62f06cc743266bd007deb08"
+    },
+    "assets/plauna-showcase.mp4": {
+      "bytes": 5102254,
+      "sha256": "019230e9ecdaf288e6cf7d76a78faaa6ef00c2574842ef826baf6d04f1264170"
+    },
+    "assets/showcase-controls.png": {
+      "bytes": 126902,
+      "sha256": "e40b573bafbbd7e2d623b32ccde7c208289a580e9e0a5e6f19bbe6637e8510e8"
+    },
+    "assets/showcase-overview.png": {
+      "bytes": 111942,
+      "sha256": "35e96e81a99926c555f79fcaa3e5176ed5799c3c95023b3d5ce95b2a5cdcb126"
+    },
+    "assets/showcase-rendering.png": {
+      "bytes": 127049,
+      "sha256": "4e424660064ccb88ef9c6ffded79f2368dee435bd2a4afe202aa20701758ee8f"
+    },
+    "assets/showcase-theme.png": {
+      "bytes": 133620,
+      "sha256": "8c323b05e6ca6f7c33cb9ced1fd39bd8c46846bb15467f4dcbd1138ef0f20566"
+    },
+    "bundler/__init__.py": {
+      "bytes": 1018,
+      "sha256": "1961bed54064d6956deb23c7a5d10f1da43e961bfa5d39ad65228af05b1cb11f"
+    },
+    "bundler/builder.py": {
+      "bytes": 49858,
+      "sha256": "4004c427fa98cc8a940956c09e4083ffeb9b4f4213d9d3c4a85ef01153b8b921"
+    },
+    "bundler/config.py": {
+      "bytes": 8044,
+      "sha256": "58f1ba28c653da722ad79b544c56326a9612b2fd3f9c33f9ce3950993cb5e11a"
+    },
+    "bundler/cyclic_baseline.json": {
+      "bytes": 2678,
+      "sha256": "7bb8d571d17d2a3e11523bc52ce638111f76c5ca8a1c0a6c5e91b21bac497bc4"
+    },
+    "bundler/emitter.py": {
+      "bytes": 18221,
+      "sha256": "a72a16e965c435533a279619733176afd5280c5d980336bdff0db1943bdb1b4d"
+    },
+    "bundler/graph.py": {
+      "bytes": 25729,
+      "sha256": "3d20c4c95f615408a8b9e5c6f75dc53c7d78cb2c9f52873b9e1a1bcce54f7be6"
+    },
+    "bundler/parser.py": {
+      "bytes": 57768,
+      "sha256": "8828fb47338c85f5994e9a138ea8dd765b9c2a13ba05b62f0cf1165bac680159"
+    },
+    "bundler/plauna.py": {
+      "bytes": 31791,
+      "sha256": "da4a9a6952e93f6396515466a028310819172694bd389a5eec5946c085dec7a9"
+    },
+    "bundler/plauna_assets.py": {
+      "bytes": 2980,
+      "sha256": "43dfb66550a50c8c003e8b7d4edb4775f3ca433596d9b1f9d6b2a1e003679d98"
+    },
+    "bundler/plauna_templates/.gitattributes": {
+      "bytes": 90,
+      "sha256": "c3c14a1db97877c21d24aa274b82947498b1ab101e95d0f33ed4f734e8d68cae"
+    },
+    "bundler/plauna_templates/CHANGELOG.md": {
+      "bytes": 1587,
+      "sha256": "1250eb15cbc5fd018ada75832d3acb434a1568e329f3374c29b3e59f254baf6e"
+    },
+    "bundler/plauna_templates/README.md": {
+      "bytes": 12678,
+      "sha256": "fac862216ce95a52cd5768fceebc69570de873c6860e3fab498431cdedd27e3e"
+    },
+    "bundler/plauna_templates/examples/app.js": {
+      "bytes": 7312,
+      "sha256": "2953d775702a8adc824b7d37407c0b540ae6a8cb6fb6e41cf0cfd573f7c1d4f6"
+    },
+    "bundler/plauna_templates/examples/compiled.html": {
+      "bytes": 647,
+      "sha256": "0522dc0ecace54e7e592abf7b0d18b87311467c471f62623db722147a71a88aa"
+    },
+    "bundler/plauna_templates/examples/index.html": {
+      "bytes": 1870,
+      "sha256": "65f57a8b4e057f3618744d8e9122f52f3651c101d64c412f4b4400b7f26ef6e5"
+    },
+    "bundler/plauna_templates/examples/showcase.html": {
+      "bytes": 1103,
+      "sha256": "9f1f2926456f5b2dfeda0590dac8f755129106a1d13b86a5e17d965095ed65d0"
+    },
+    "bundler/plauna_templates/examples/showcase.js": {
+      "bytes": 2007,
+      "sha256": "9ef8a6ba79494ffbffd1fc204f869919b45738414906f90a22f21a90fe9b4c0b"
+    },
+    "bundler/plauna_templates/examples/source.html": {
+      "bytes": 593,
+      "sha256": "c8559de0aa26ed05e29dfafc48d8f4c70901474213ec978e4c2861f60348efa1"
+    },
+    "bundler/plauna_templates/examples/styles.css": {
+      "bytes": 3875,
+      "sha256": "3e0ec2c0a1308b648f74efc98f4954a6c689aad1b34b7bb8ad76af5e2484208a"
+    },
+    "bundler/release_validation.py": {
+      "bytes": 1963,
+      "sha256": "eaebcb99fa6d26c9bdf73620ac5ed74ea5e75471db8c13f32a8fee826587f4db"
+    },
+    "bundler/scan_import_paths.py": {
+      "bytes": 8442,
+      "sha256": "107e7ab1833b972ef24d2117c6874b545bba7829672818c035d968d78b71c4f0"
+    },
+    "bundler/security_fs.py": {
+      "bytes": 28175,
+      "sha256": "c23d8be6c9406ad96683ae02df478b2d33ab6c09d99cccdf94c6f418406335e8"
+    },
+    "bundler/tests/__init__.py": {
+      "bytes": 178,
+      "sha256": "f0593c3e95b06eabee7b21c65cc6e57d17a60e884cd64e296de100855b2941c2"
+    },
+    "bundler/tests/test_plauna_distribution_browser.py": {
+      "bytes": 22818,
+      "sha256": "7b86d746b3f49645d16cfa5dc7fef1a5ed603e2639dad8b9df3399579ddea211"
+    },
+    "bundler/tests/test_plauna_export.py": {
+      "bytes": 11403,
+      "sha256": "c5b5e13b288ff014a7cc99830d9fc8617acff1fd2e7a991e58d2c856bcf9051e"
+    },
+    "bundler/textscan.py": {
+      "bytes": 2268,
+      "sha256": "d29581c83faaf136f2c3665a2e85a6e10dd3b1a3b2ead8d3c6262f17f6ba5445"
+    },
+    "bundler/transform.py": {
+      "bytes": 7861,
+      "sha256": "6ab4b55f2c778d1d8fc468eb60bcdabbd690ed1f99e95777c74cbf2cfb7bf800"
+    },
+    "dist/plauna.js": {
+      "bytes": 6421910,
+      "sha256": "775547ffac879399b1721ff7b7ebf4e96f35484e18c32800d3aabf9b52e8a08e"
+    },
+    "engine/collab/CollabIdentity.js": {
+      "bytes": 57568,
+      "sha256": "f60b69d5e638dc31fb70408cafd51fda50be781b11f3800ee05cead904726b0b"
+    },
+    "engine/core/compute/WasmCapabilities.js": {
+      "bytes": 2298,
+      "sha256": "992efd6974cb434f434616fe0e78aed550f1ba8598924c99c15bbeff56cb5b76"
+    },
+    "engine/core/gpu/AsyncComputeScheduler.js": {
+      "bytes": 12917,
+      "sha256": "0e023007357dc2078949a7e93893ca5b792989cac245a12188bfbd8a1b2661b0"
+    },
+    "engine/core/gpu/AsyncGPUWorkScheduler.js": {
+      "bytes": 16107,
+      "sha256": "5ecf8b005035ab5a59e67186cb20492f58dbc13f237b9cd7cd86fa0aca4e54d6"
+    },
+    "engine/core/gpu/BufferPool.js": {
+      "bytes": 5142,
+      "sha256": "52d868eccf19b938c8039a3f3c1608e63b674208466759f1dfb4faf619f4aa40"
+    },
+    "engine/core/gpu/GPUTimestampProfiler.js": {
+      "bytes": 82289,
+      "sha256": "12cd6fd787b510d3ebc64bd9c13195163d3f1c75a687879c606c5bed8828f14b"
+    },
+    "engine/core/gpu/GpuDebug.js": {
+      "bytes": 1831,
+      "sha256": "163e4416f0084cd4aae80ee1f83b0047ef3ee1e0b740e10dd80047834f5e5c95"
+    },
+    "engine/core/gpu/GpuDescriptorIdentity.js": {
+      "bytes": 5863,
+      "sha256": "6a4efed6f78543b482dc73b1c3125878ec34d960c1be8dcc7efa879fc5692bc7"
+    },
+    "engine/core/gpu/GpuDevice.js": {
+      "bytes": 41534,
+      "sha256": "03969d01b3e4cd5a17727e1d08f45b8ee78f62404cc6bfe29923474821588af9"
+    },
+    "engine/core/gpu/GpuDeviceOwnership.js": {
+      "bytes": 3477,
+      "sha256": "bc9407c139c2b45b7569d9a31236d0a272c1164ecacd86befa73e58d62387425"
+    },
+    "engine/core/gpu/GpuFormats.js": {
+      "bytes": 1122,
+      "sha256": "65fd25fdeeb2886d660a2211c2b40a235e1c2a1b9150b04b1f371ecff8267cc0"
+    },
+    "engine/core/gpu/GpuFrameBudgetBroker.js": {
+      "bytes": 21720,
+      "sha256": "1dc0a0e00917893a1327b00dbf43d379588ee626d78c7a7373593194282047ff"
+    },
+    "engine/core/gpu/GpuMapAccelerator.js": {
+      "bytes": 7279,
+      "sha256": "380a69e7e75788e6b856577c674a17705eda521f17f31b2630b632352aec6ae8"
+    },
+    "engine/core/gpu/GpuShaderDiagnostics.js": {
+      "bytes": 38723,
+      "sha256": "24f62e59f402f28b30fd835a819539f41146d2904081ed1a11a1775523ff8cf6"
+    },
+    "engine/core/gpu/PipelineCache.js": {
+      "bytes": 19600,
+      "sha256": "f120f7215be2e7902122ed15239965fdab2be90a997563c5e11f17a44c69df12"
+    },
+    "engine/core/gpu/VGPUBindGroupManager.js": {
+      "bytes": 34659,
+      "sha256": "a6d23df8bf2d4a26732a56829a355d3b91b788d5edc3312f1ea2c0cdfb44336e"
+    },
+    "engine/core/gpu/VGPUBindless.js": {
+      "bytes": 17701,
+      "sha256": "d91fff8db36ddc269ef6318d5829b6609c62450d91ef6708ae6898083c108325"
+    },
+    "engine/core/gpu/VGPUComputeUtils.js": {
+      "bytes": 25259,
+      "sha256": "8cf413d436c77ffbdfe9b088114a1e1a700771169db48ace3ef65a458e5fd327"
+    },
+    "engine/core/gpu/VGPUDebugDraw.js": {
+      "bytes": 42781,
+      "sha256": "c90771e564bc7c4ac12aa2fe8fcb6f91e73d300bb3a3aa836da8e74740c56c81"
+    },
+    "engine/core/gpu/VGPUHiZCulling.js": {
+      "bytes": 42856,
+      "sha256": "5f2dbc78eb8ad4f2dcaf687761773b22b4620a2b56f9047766be8d5f30d4f3f7"
+    },
+    "engine/core/gpu/VGPUIndirectRenderer.js": {
+      "bytes": 43919,
+      "sha256": "b97b3619a27fd490fab20ff89f0f27d8a9617e3dd059816b7dc50a58af652e37"
+    },
+    "engine/core/gpu/VGPUMemoryTracker.js": {
+      "bytes": 76676,
+      "sha256": "c6acfd953a8493dfa3d072c76dea619742d0ccbbe49e55117593c3a932e242d5"
+    },
+    "engine/core/gpu/VGPUMultiQueue.js": {
+      "bytes": 14761,
+      "sha256": "93ac97d40e55e206da7d4ee6cdac8c672fe3ef6472fba1e05990f932e97a392c"
+    },
+    "engine/core/gpu/VGPUQualityScaler.js": {
+      "bytes": 16806,
+      "sha256": "77daee4a204d256ee25d7b99d50a7973be58315ddd1e25e4b44775de1769b948"
+    },
+    "engine/core/gpu/VGPUReadbackQueue.js": {
+      "bytes": 14862,
+      "sha256": "873ed20504ad0ea91920be20b4a29fbc11538518ca005d65d16d256d47259c9f"
+    },
+    "engine/core/gpu/VGPURenderGraph.js": {
+      "bytes": 62591,
+      "sha256": "baefaa10aeab9c52532a52f8693dde9d5c232900a9f646281c7d11181db32748"
+    },
+    "engine/core/gpu/VGPURenderStats.js": {
+      "bytes": 15657,
+      "sha256": "59f3ce91466b1640661759240a70530cb957a9d476e9a3d1c8d54a55cf65c8fe"
+    },
+    "engine/core/gpu/VGPUResourceBarriers.js": {
+      "bytes": 19002,
+      "sha256": "c813f3e965f705e2957b7cd8a323f7cd469c1d1c316e6c7e448e88424f79ec3e"
+    },
+    "engine/core/gpu/VGPUShaderReflection.js": {
+      "bytes": 17117,
+      "sha256": "ef8a1d5393c2c53eb3a1fd184712797f531c9fdaed094e9f4dd9c49609498f60"
+    },
+    "engine/core/gpu/VGPUStreamingManager.js": {
+      "bytes": 63455,
+      "sha256": "9f8b1b0145627a96967b756aa543e3118373497ad128bc336b90cde5c43f55db"
+    },
+    "engine/core/gpu/VGPUTextureAtlas.js": {
+      "bytes": 37494,
+      "sha256": "64c270923d70874ac5b7d946f513bda2c499ce538cf765bece4edf84f00d2e82"
+    },
+    "engine/core/gpu/VGPUTimelineSemaphores.js": {
+      "bytes": 29395,
+      "sha256": "6ab8db9a5e519708e5a7c717fd185ecdc53623d47de2b7f89bb56696877949df"
+    },
+    "engine/core/gpu/VirtualGPU.js": {
+      "bytes": 542159,
+      "sha256": "10a16d9f7c83e58ec1bf2c4e48421348cf2867415933fee0458597f966d389f2"
+    },
+    "engine/core/gpu/WGSLPreprocessor.js": {
+      "bytes": 13201,
+      "sha256": "cac8cd068a90a7dc324fb02149811ad84b798405224ab5805cc0b7264972ec44"
+    },
+    "engine/core/math/BlendMath.js": {
+      "bytes": 5985,
+      "sha256": "11427b5dae84171d713a8312a3ea4d9ff43ad17d54f488fee99c09a0512f4de0"
+    },
+    "engine/core/math/BufferMath.js": {
+      "bytes": 13213,
+      "sha256": "2e1f83b62de63783544ca42ddd3786ebbc731d646436cb3880a37e8275fa3fce"
+    },
+    "engine/core/math/ChecksumMath.js": {
+      "bytes": 24399,
+      "sha256": "85c19c7dc6dae089cc1ebae45244f5ae9fade2b8171445f9999bae66264927ba"
+    },
+    "engine/core/math/FormatMath.js": {
+      "bytes": 48101,
+      "sha256": "10e004f8205995967fb4bc2336bfb8e499e0b7b1b30f7c4495fbe722199e87cd"
+    },
+    "engine/core/math/FrameMath.js": {
+      "bytes": 13914,
+      "sha256": "b13c853f61ca50f618225929d6f4649b611eae58c41e4e7eb1e68e6a2dabc923"
+    },
+    "engine/core/math/ImageMath.js": {
+      "bytes": 19486,
+      "sha256": "207282ec98e1bb10425bba85c716479118e92e7304a2c0fb7222fee0bfe9acaf"
+    },
+    "engine/core/math/MathColor.js": {
+      "bytes": 143875,
+      "sha256": "472d8b55fea798959c205581c820a08ca11f1b4f8c18b677923dcb91dc52fb3f"
+    },
+    "engine/core/math/MathConstants.js": {
+      "bytes": 1648,
+      "sha256": "504ec61e16abeaff5a8e32ee8837217456f2a5de742fac4149c35b8c7d9e2324"
+    },
+    "engine/core/math/MathEasing.js": {
+      "bytes": 21886,
+      "sha256": "871b0327f5ea89c1dafffa074561e5c652730badd57e195bec47cae24ffe5fce"
+    },
+    "engine/core/math/MathEntropy.js": {
+      "bytes": 40997,
+      "sha256": "1c47669ed7fcc0cafff396623505d8f9d271b97923e9de2833fe5219bd99c597"
+    },
+    "engine/core/math/MathQuality.js": {
+      "bytes": 20053,
+      "sha256": "e42d489bbc963759ffe50078c27420ab9b5688dbdf807b1d05475d2827a4abc7"
+    },
+    "engine/core/math/MathRandom.js": {
+      "bytes": 17636,
+      "sha256": "b1e574ab4e4fcfffcf9681fa5d8b5e8a02f2e4bf8c863bef45c322d1c97dd008"
+    },
+    "engine/core/math/MathScalar.js": {
+      "bytes": 8796,
+      "sha256": "c13308f10d48eb87f808fbe1d4984a32c6905cf0be85b36fc0d126f25b766914"
+    },
+    "engine/core/math/MathStatistics.js": {
+      "bytes": 6948,
+      "sha256": "347dd799b58b1271c3b1624b6ce96bcd4200194d251e7485bf199b13b15245a7"
+    },
+    "engine/core/math/MathValidation.js": {
+      "bytes": 27445,
+      "sha256": "eee2e281591f93abbb1adeb566f03fcdf46e3fc194b770af070d9873fb380b88"
+    },
+    "engine/core/math/MathVec2.js": {
+      "bytes": 14697,
+      "sha256": "2f8c49db02cc5680f8b69037c7198650269280a66fac0dad4542a413030c364d"
+    },
+    "engine/core/math/RectanglePacking.js": {
+      "bytes": 1255,
+      "sha256": "651b59a20558f6a1425894c27ecc3837beab89c7c276d15723e439c4961f4c31"
+    },
+    "engine/core/math/TextureMath.js": {
+      "bytes": 47257,
+      "sha256": "20dc9b3406e54f1e5fc6989e43c8e4b323a47b6e13d6f26951d4a69b69c2b49b"
+    },
+    "engine/core/math/UILayoutMath.js": {
+      "bytes": 54935,
+      "sha256": "f1030128260446b3231aec2842263de2f39c4d416662281e2829d00b7cf5a50a"
+    },
+    "engine/core/math/UnitMath.js": {
+      "bytes": 9942,
+      "sha256": "62ed3ffe556dd5b732b8118a48f0395f9d4c9c3cacb449b67eea0e22019f0043"
+    },
+    "engine/core/memory/GPUMemoryManager.js": {
+      "bytes": 36407,
+      "sha256": "aeefa85c814cf9d0453c14de9cbaa4407a05eb267893399c210e5ecdfd2c5503"
+    },
+    "engine/ecs/EntitySchema.js": {
+      "bytes": 54243,
+      "sha256": "9129a6b1f99ee12aef17018640b3f8b5bb099149d6f15a2316f25c193f44227b"
+    },
+    "engine/ecs/components/ComponentRegistry.js": {
+      "bytes": 3705,
+      "sha256": "fa9708b00f70d195a47357e6c9bad851fa60b8969b1c7fb3c65c4517fd0ceedc"
+    },
+    "engine/ecs/storage/ArchetypeStorage.js": {
+      "bytes": 10135,
+      "sha256": "e6cd7171fc5e2cbed272f7e1188dc4cd27f4fc7fade6056db2422790fe901158"
+    },
+    "engine/ecs/world/World.js": {
+      "bytes": 17934,
+      "sha256": "d486dbde05202f35a9a65cc8e80af018188873731a32b717f1602f1ba160e2d2"
+    },
+    "engine/network/crypto/Hpke.js": {
+      "bytes": 9196,
+      "sha256": "0a4ca45536f03e3da8de2ad6bc8e6189e72e266c5a850797bf3aa35511a8df2f"
+    },
+    "engine/network/crypto/Trust.js": {
+      "bytes": 5256,
+      "sha256": "9353d1992431e41107807fc1e6d9ac7e525feeefaf8b4fd85cb80c42005185e6"
+    },
+    "engine/network/protocol.js": {
+      "bytes": 5717,
+      "sha256": "8396f8bbd18e3b7fda4538eb7cf10aa730321e1841b43d5fce99cd02ec4c76f5"
+    },
+    "engine/network/realm/addressing/RealmIds.js": {
+      "bytes": 4612,
+      "sha256": "9cd53b8d5e17aba708075d74c5e63c9902f4e24770ac9eca28d7c8ae89507c76"
+    },
+    "engine/network/realm/authority/AuthorityLease.js": {
+      "bytes": 10674,
+      "sha256": "44c31cf512d713e4fd0e5326c4469ed4fd4bcc69bcfd207c2426473b90772e69"
+    },
+    "engine/network/stateChannels/BroadcastStateChannelTransport.js": {
+      "bytes": 2520,
+      "sha256": "d8fd0b8632534365cfa988ae8992fee09fe93a0f3b1588e3fd337e0d4154a7a0"
+    },
+    "engine/network/stateChannels/InProcessStateChannelTransport.js": {
+      "bytes": 1049,
+      "sha256": "324393b3d8cc1fec1bcd92900f5342e9a24be07b5fdd358cd284ce2eeb6517ae"
+    },
+    "engine/network/stateChannels/MeshStateChannelTransport.js": {
+      "bytes": 9821,
+      "sha256": "7be30f8d1f57a0cb9b2f3a18754d2b6c57b8eb5d37dc6cc045f93b1a3a84b743"
+    },
+    "engine/network/stateChannels/SseStateChannelTransport.js": {
+      "bytes": 35486,
+      "sha256": "c6998f9a7ad091bc0696fe46f25cb1e6b01b8d1c9a9b5855bdd29478207d1986"
+    },
+    "engine/network/stateChannels/StateChannelClient.js": {
+      "bytes": 6977,
+      "sha256": "dc2a139249bd4447465bbcb2c1e212dadbbe2a94b4596034a2c4d5af01030f03"
+    },
+    "engine/network/stateChannels/StateChannelContract.js": {
+      "bytes": 17177,
+      "sha256": "cb26f8181eb249b9990a0f2aa6c757d530a34dee396f0a16526ba6cf32618685"
+    },
+    "engine/network/stateChannels/StateChannelFederationProof.js": {
+      "bytes": 5205,
+      "sha256": "696879ffeee456ea5e50127957d6448c4cf04b576dd176837f1f69fa5a9177a3"
+    },
+    "engine/network/stateChannels/StateChannelTransportResolver.js": {
+      "bytes": 4033,
+      "sha256": "6071fce8f80645390187190bc119ed6f96de207af09bc841eecd275591d466b7"
+    },
+    "engine/state/authority/Identity.js": {
+      "bytes": 5076,
+      "sha256": "7937253b64d7dfee6691613856bf8cab52332566c9a5f095d0335c3fb281ae5a"
+    },
+    "engine/state/util/canonical.js": {
+      "bytes": 9826,
+      "sha256": "df3878c87a10def79ed72af7f9a536059f4fe6da638cc29f3205284d0913136e"
+    },
+    "engine/tools/console/HtmlConsole.js": {
+      "bytes": 20479,
+      "sha256": "4ca0f7bf3d740f7ff4ead8de24c3ee4faa39ac33d9d877bb5b42ce659e8956e5"
+    },
+    "engine/version.js": {
+      "bytes": 2579,
+      "sha256": "b597757d55b073e504d0a4dc6938503d79473909bfe886477899042db4ed4c6a"
+    },
+    "examples/app.js": {
+      "bytes": 7309,
+      "sha256": "b519e604d07038b47a3c4728b9b0730478d4619c393f2c8225a759908fbf9dd8"
+    },
+    "examples/compiled.html": {
+      "bytes": 647,
+      "sha256": "0522dc0ecace54e7e592abf7b0d18b87311467c471f62623db722147a71a88aa"
+    },
+    "examples/index.html": {
+      "bytes": 1867,
+      "sha256": "7511fabaec3b4b545bd96fd0275e34ef73a207ecc5c2470cc26203bedb3727bd"
+    },
+    "examples/showcase.html": {
+      "bytes": 1103,
+      "sha256": "9f1f2926456f5b2dfeda0590dac8f755129106a1d13b86a5e17d965095ed65d0"
+    },
+    "examples/showcase.js": {
+      "bytes": 2007,
+      "sha256": "9ef8a6ba79494ffbffd1fc204f869919b45738414906f90a22f21a90fe9b4c0b"
+    },
+    "examples/source.html": {
+      "bytes": 593,
+      "sha256": "c8559de0aa26ed05e29dfafc48d8f4c70901474213ec978e4c2861f60348efa1"
+    },
+    "examples/styles.css": {
+      "bytes": 3875,
+      "sha256": "3e0ec2c0a1308b648f74efc98f4954a6c689aad1b34b7bb8ad76af5e2484208a"
+    },
+    "index.js": {
+      "bytes": 156,
+      "sha256": "4754d4e523ed167a41293a40dab69c7138df0c967b20d66d3a85f9601738d30f"
+    },
+    "plauna/ARCHITECTURE.md": {
+      "bytes": 33569,
+      "sha256": "d4db950c8a8c296afbdc491f4847eef0eb2ba13106cbab397e1e51abbbe3fc97"
+    },
+    "plauna/LICENSE": {
+      "bytes": 1067,
+      "sha256": "6b52fc09d095568d611ec38256a2bb02575ff92dfb8dbfef13ef830381ba3863"
+    },
+    "plauna/README.md": {
+      "bytes": 18503,
+      "sha256": "60db23c2ae89b91ea4609edd4df3c5e906ae7cd276d8fd95498e5c3cc2b62066"
+    },
+    "plauna/SHOWCASE_INTEGRATION.md": {
+      "bytes": 5764,
+      "sha256": "0501b3425290a5965d767dbffb704be5d1f2e160b6877c7a35916d7a79e49585"
+    },
+    "plauna/boot.js": {
+      "bytes": 6436,
+      "sha256": "0adfc3db3fac1ce83a15c6d20ea7050293c2adb8d4e49507dd289f482a50d36a"
+    },
+    "plauna/console/PlaunaConsole.js": {
+      "bytes": 18228,
+      "sha256": "e9b3b037bc257c2dbe31d8ec1618911d27f2f9d6f815944dde2524f62d2bc6c7"
+    },
+    "plauna/core/BindingEngine.js": {
+      "bytes": 17114,
+      "sha256": "734de6146a22e86bef0de1c6e4ef58c9edbe9aad9d64b5996e5753c7b8be48bf"
+    },
+    "plauna/core/DOMRenderer.js": {
+      "bytes": 36043,
+      "sha256": "c4c5a93a5a764aaf1e40bbc38086f7d54ebfb93c9147413aa141bf7bc67d3d50"
+    },
+    "plauna/core/ModuleTester.js": {
+      "bytes": 17849,
+      "sha256": "af4eb2f88fae5de4ffeed46d1f87cee9d56347a5a80aede5bd42c2c12595e0c0"
+    },
+    "plauna/core/StateStore.js": {
+      "bytes": 13749,
+      "sha256": "e2f28d8b9a1d30e9b81b610f21faffa7d619e50b68797d6466ca18bc8c403279"
+    },
+    "plauna/core/UINode.js": {
+      "bytes": 24874,
+      "sha256": "9a03bb85aec461740f81f8fb12623467f2ad809f3b0232f17f2ae8b2203c97c7"
+    },
+    "plauna/core/VisualTree.js": {
+      "bytes": 19780,
+      "sha256": "169bba33b3093a04f5d846c0416ca51791f64cf3ebf91a7851143a82e10c73c2"
+    },
+    "plauna/core/app.js": {
+      "bytes": 48236,
+      "sha256": "b38d15b87f4a5ea8f22ccf1c83b66d9ee830b90777019b97784413c214700955"
+    },
+    "plauna/core/events.js": {
+      "bytes": 2637,
+      "sha256": "2532c1c2fbc4204471fab06bc74fbb16a14db519308c221617e4ab19e647bea4"
+    },
+    "plauna/core/registry.js": {
+      "bytes": 4179,
+      "sha256": "d7678d0c6f28a601fb8601497e56d019cd1a72146f01ffeae4506b50054c3058"
+    },
+    "plauna/ecs/components.js": {
+      "bytes": 7379,
+      "sha256": "643eaddcd03f656c967079b2535d584ae8b4ea702d7cbd250382d1e547c12a41"
+    },
+    "plauna/editor/HotReload.js": {
+      "bytes": 30485,
+      "sha256": "d89580a5185b8d0887486f1d8817a924fa63677bc6083cd5ad3ee56d41c7b38f"
+    },
+    "plauna/index.js": {
+      "bytes": 13770,
+      "sha256": "bad9dbc1afeca420f25cfbf3a694d72066dd6f2621ca8632f4ccf8fa165364dc"
+    },
+    "plauna/lab/showcase-app.js": {
+      "bytes": 2238,
+      "sha256": "60354c6b05fd8f5d1b97965f96f9457402990798a5cb5d4b3903be251b5008de"
+    },
+    "plauna/lab/workbench-lab.js": {
+      "bytes": 40426,
+      "sha256": "87f8c37bf22e215baf3c4adf988a3e10c1fadf366d443ebcb032ee8961856c2b"
+    },
+    "plauna/lab/workbench/backdrop.js": {
+      "bytes": 20266,
+      "sha256": "9d3c711461167ff4327a330db6548222c070b8cad932d048a6189244e9c0f5d3"
+    },
+    "plauna/lab/workbench/demos-data.js": {
+      "bytes": 23011,
+      "sha256": "71f2905635e0b7b953b9a1cb34bb662be8810d5fdded843653e2660c81757c44"
+    },
+    "plauna/lab/workbench/demos-feedback.js": {
+      "bytes": 40944,
+      "sha256": "38b507a92a17705a8b99578dfa87e5e761c9109309b1ed85299c7985e2983c9e"
+    },
+    "plauna/lab/workbench/demos-layout.js": {
+      "bytes": 124002,
+      "sha256": "8389bee70798e1a17586065711bbe03ca35cf96489f9eea84a874e69d7de76f1"
+    },
+    "plauna/lab/workbench/demos-navigation.js": {
+      "bytes": 71237,
+      "sha256": "4bf75a45a052152d5d4e42d3ea8410a51db230e2627efc50e862d852c122465a"
+    },
+    "plauna/lab/workbench/demos-primitive.js": {
+      "bytes": 41388,
+      "sha256": "1cd33029b1a3c17881d6b3de5a83372ea98efb9267d61afe9dc241e897e3a42f"
+    },
+    "plauna/lab/workbench/gallery.js": {
+      "bytes": 62914,
+      "sha256": "2f98a2c88868aba3e9b46f6bee347832ba7ec08d7a6e3cdd766166d6e81bb54d"
+    },
+    "plauna/lab/workbench/renderer.js": {
+      "bytes": 5996,
+      "sha256": "34cd3cb9d488074c239334e049082307254aa8804e4cfec6d2ccaff685b392e7"
+    },
+    "plauna/lab/workbench/shell.js": {
+      "bytes": 10167,
+      "sha256": "2b96c4f02cc6bdf039dff49b4cbee2f1158613c253116c151403a671ec25951b"
+    },
+    "plauna/lab/workbench/support.js": {
+      "bytes": 9255,
+      "sha256": "e9abc79a5a5a65a0fd88047d5e6d648f76d584f3ca2d1daf9ecb91be88c2d62e"
+    },
+    "plauna/layout/LayoutSizing.js": {
+      "bytes": 1493,
+      "sha256": "ded264e2efe4dfac45825417adf3417963269a1b03505155e7bb2645bf8901b0"
+    },
+    "plauna/motion/MPAFallback.js": {
+      "bytes": 2475,
+      "sha256": "89567f3910485ba303706c87d23621058bde0773f37e7794cc6286c573422636"
+    },
+    "plauna/motion/PageTransition.js": {
+      "bytes": 15656,
+      "sha256": "3dbf48c4b6e2e565f4d9af45d3b646bb5a8086454c3cb562da98ef7475d1891b"
+    },
+    "plauna/motion/PageTransitionContracts.js": {
+      "bytes": 3076,
+      "sha256": "abd2aafd9f4676fef063340750ba30f34d3cc9a3b8e53c6b68ec00d93b441874"
+    },
+    "plauna/motion/PageTransitionManager.js": {
+      "bytes": 10999,
+      "sha256": "626f0e143199d183029d9ebbc4e04b4b18756db32802a0d86eb36a61da31f184"
+    },
+    "plauna/motion/PageTransitionPresets.js": {
+      "bytes": 16024,
+      "sha256": "fd49bb36a8c2637fa193db64a6d13485451810ebb4da98a2a7b81910685d8667"
+    },
+    "plauna/motion/TransitionEngine.js": {
+      "bytes": 19932,
+      "sha256": "ae259096912ffc8fccd530d94f96898052118d80a2593dde57b133cf644e3969"
+    },
+    "plauna/notifications/NotificationSystem.js": {
+      "bytes": 15137,
+      "sha256": "417d2922a15a1bb7fca3a3490de42b092df9a866e8fc4b24791027209931e9dd"
+    },
+    "plauna/notifications/README.md": {
+      "bytes": 11277,
+      "sha256": "61522b3ed7c78d45a3e8922c93f27abded2ffbe23ea5d92bb06ce63362457de4"
+    },
+    "plauna/particle/ParticleController.js": {
+      "bytes": 5027,
+      "sha256": "fe5e3eed999dae3f4fe9bb62084494930f67f9b347120b38265b4aaf700b1857"
+    },
+    "plauna/particle/bridge.js": {
+      "bytes": 25700,
+      "sha256": "e8f390466b172b474271ff6cef3262f77f8acddd17aa86774fc51e6c8296d87f"
+    },
+    "plauna/render/AnimationController.js": {
+      "bytes": 24413,
+      "sha256": "44f9510595471a8b4a1c289dc08e2767e7d8abb5f15b69c9f623355549d2fa81"
+    },
+    "plauna/render/GlassUnderlay.js": {
+      "bytes": 9819,
+      "sha256": "bae8eeb91f5d3b6e9eb1a3fcbf13a6db1a3afabbf60d5e40fbd78073c1291837"
+    },
+    "plauna/render/LayerAnimations.js": {
+      "bytes": 29381,
+      "sha256": "608ff35388a3aac17b0e6d3aee946579374b6b137c5e9ecb0a8f1197015906ac"
+    },
+    "plauna/render/NativeWell.js": {
+      "bytes": 12274,
+      "sha256": "7a8b78078c20181fd5bdede9288a5b3baba68867e555d7022d2fc0302a8168d0"
+    },
+    "plauna/render/RenderModes.js": {
+      "bytes": 4396,
+      "sha256": "691a6e86500f5289279b44df387b99ba65e1935e765ba67526584c704a924345"
+    },
+    "plauna/render/RenderSurface.js": {
+      "bytes": 96876,
+      "sha256": "1005fea51cc7f26126403eb124dd052865cb71ad0fd2911a678296b52340dcfe"
+    },
+    "plauna/render/css/CssValues.js": {
+      "bytes": 42561,
+      "sha256": "3f33af19272e938ce7fd121932f73227500a77d3f9f3f16c6327218b46f520b4"
+    },
+    "plauna/render/css/StyleResolver.js": {
+      "bytes": 122794,
+      "sha256": "a1f530bebb12dc065d43cb3d603379a507f82089a3fdee9390afcccb34f0355c"
+    },
+    "plauna/render/css/StyleRules.js": {
+      "bytes": 52222,
+      "sha256": "17df79267dd48a8993f9d2ea5697eaeedb704024e126c95099510c78df4ea8ff"
+    },
+    "plauna/render/css/UserAgentStyles.js": {
+      "bytes": 26272,
+      "sha256": "1d34b5d9ebf8175d0e9dccdffbf552fbd56fea7b2e9dbdce6a189d6d2ab4f72c"
+    },
+    "plauna/render/gpu/BlurPass.js": {
+      "bytes": 8114,
+      "sha256": "2d47070fbda021c540b412278fed44eadf2feea1f8eb8513076e14e1c7e82cb0"
+    },
+    "plauna/render/gpu/DisplayList.js": {
+      "bytes": 239867,
+      "sha256": "51e6a115a541dba01280df909377276d70f540ae244e9c9db1d13606e2e7eda1"
+    },
+    "plauna/render/gpu/GpuPainter.js": {
+      "bytes": 38463,
+      "sha256": "bdcb23bd9ee3d2c2e5bb167b49dfd9fe204a9c19d8743f2df7949804c45471b2"
+    },
+    "plauna/render/gpu/PaintWorker.js": {
+      "bytes": 17424,
+      "sha256": "03dd831d8f3f3bb5951dc933865923a2c683a0b0b9f3413bd32f2be2024e065f"
+    },
+    "plauna/render/gpu/PaintWorkerHost.js": {
+      "bytes": 17966,
+      "sha256": "cb1558a52b7b3ecb5cadfc53013931bfc938b94c1b0945c11af496f40582e649"
+    },
+    "plauna/render/gpu/Rasterizer.js": {
+      "bytes": 41462,
+      "sha256": "73bb956a030fccec5d1a461bb4465cc51399e4869bf6c0c4f9ffabc7510d196d"
+    },
+    "plauna/render/gpu/SurfaceCompositor.js": {
+      "bytes": 9192,
+      "sha256": "06b0f89bc19ee143eb8d73f88b589444e5428fecfb43645f9c2c1ab4b6f1f73a"
+    },
+    "plauna/render/gpu/shaders.js": {
+      "bytes": 33203,
+      "sha256": "60792726616a30cd6d2a00fb8841d9b6f63ad700ec5ecfc0ad3632da2ea3923e"
+    },
+    "plauna/render/index.js": {
+      "bytes": 1013,
+      "sha256": "f0214f713c551c072d5a9ebb17216aa108f7bebdbaedd80c39bcdaaddca60f6b"
+    },
+    "plauna/render/layout/FlexLayout.js": {
+      "bytes": 22057,
+      "sha256": "e07bcf2781402c15b844225001949c0a4be1d8079c77717ca32190174a83235a"
+    },
+    "plauna/render/layout/GridLayout.js": {
+      "bytes": 28883,
+      "sha256": "b3da2652f90e9160b2509cc628f17a5ad08853b51400d9aa22c18c4601251cea"
+    },
+    "plauna/render/layout/InlineLayout.js": {
+      "bytes": 42795,
+      "sha256": "e5e74f1ab0b39b719f339d28c50cb9c97948f19f8e0e08e31d5a6cb1bf2f5d3f"
+    },
+    "plauna/render/layout/LayoutEngine.js": {
+      "bytes": 110195,
+      "sha256": "21588aa6446d76f90a0f90e5e8ada595390342e502040cac59362f410ee53847"
+    },
+    "plauna/render/layout/LayoutTree.js": {
+      "bytes": 20995,
+      "sha256": "4797abfdc09113f925881ec9d7445846b5c64ecd16a8feaf1a8a858c3959f389"
+    },
+    "plauna/render/layout/LayoutUnits.js": {
+      "bytes": 5461,
+      "sha256": "1ac5bdebbb010bfe6a2d01f700f90cbb4822fe0d53638ee9877c87a2848d8448"
+    },
+    "plauna/render/layout/TableLayout.js": {
+      "bytes": 17323,
+      "sha256": "da076ece2da4ad518771e163192194f5b53f84776cb6532bdf6a127ffa9faa8a"
+    },
+    "plauna/render/text/TextShaper.js": {
+      "bytes": 39812,
+      "sha256": "b899ed95581544a96317bafcef8bce5bd932fee0d98331c74fc96975d10ba0ef"
+    },
+    "plauna/style/AdaptiveThemeFactory.js": {
+      "bytes": 31363,
+      "sha256": "a3d74ae4591dc5e7f595230c406f4b619afd00e1394248cab948a29ddcd451ac"
+    },
+    "plauna/style/CSSGenerator.js": {
+      "bytes": 8851,
+      "sha256": "f9bc10ccb2bb5990b9629bc6c6bfa73bffadea57e94093edb16af8aa1d164e88"
+    },
+    "plauna/style/ComputedStyle.js": {
+      "bytes": 19864,
+      "sha256": "bc48ce1cb2ae2a03f1c6c630ff1718c12ffdcf5fb0fd2ff4df1941bbe9395bdd"
+    },
+    "plauna/style/DesignTokenContracts.js": {
+      "bytes": 3161,
+      "sha256": "c284628a991e0eb7ed81b4b0232190bfbfa93a8e4d96579256a83c4efaae752a"
+    },
+    "plauna/style/DesignTokens.js": {
+      "bytes": 27333,
+      "sha256": "053014d4242c093960e2c908cb7f78b77b93416da0c2a215125915e7c2a44840"
+    },
+    "plauna/style/LayerManager.js": {
+      "bytes": 3111,
+      "sha256": "f35fd30553b858c8112b24f3be3747ad00b8e0a3a6701338ecb32f00439dea65"
+    },
+    "plauna/style/StyleSizing.js": {
+      "bytes": 1000,
+      "sha256": "870586c5389ded98af5b27c97fb7c7387017a64dad39817d85c0e35b75b60e05"
+    },
+    "plauna/style/ThemeController.js": {
+      "bytes": 5167,
+      "sha256": "6b94c84488e503d306972aa0903dd3e1daec6333596edba20744a3e9fa320a0b"
+    },
+    "plauna/style/ThemeManager.js": {
+      "bytes": 20015,
+      "sha256": "b527f132c99a30c165b7d5770d7e60210c87e7743070350d95d47444c620d17c"
+    },
+    "plauna/style/index.js": {
+      "bytes": 938,
+      "sha256": "9279cb7d52928c232b55416eff632d0263ad2ee786bb1d897feea840d650e531"
+    },
+    "plauna/styles/plauna.css": {
+      "bytes": 43379,
+      "sha256": "e7eaf6df9dff7a3f7dfc532683fd80b5d5ab4eff5580e209be2772e92cf2be05"
+    },
+    "plauna/surface/surface-manager.js": {
+      "bytes": 27594,
+      "sha256": "b199032cce7a3e635fd4202e6618131f44e3e589fe3cc7e90d8fdd4b96905389"
+    },
+    "plauna/text/pretext-service.js": {
+      "bytes": 13785,
+      "sha256": "5bcb97f86d4130fe8297f8f5c52013a17568e4d47d5973d3fd5abe9d790af31f"
+    },
+    "plauna/themes/README.md": {
+      "bytes": 3438,
+      "sha256": "5948e146f84aeb521bada209b1cdb958791362be13deb2b8a8804ee8c9d45533"
+    },
+    "plauna/themes/ThemeContracts.js": {
+      "bytes": 2930,
+      "sha256": "94317232ef6d5ba83fccef9eafaf2cc4b20561df08a96eacedf6a3132fcfb7c8"
+    },
+    "plauna/themes/ThemeLoader.js": {
+      "bytes": 13448,
+      "sha256": "140a9fe88e51e20f978c9c16eb705d3d4bac80e6cb593b41693e544ba1509cb1"
+    },
+    "plauna/themes/ThemePreference.js": {
+      "bytes": 3080,
+      "sha256": "7e14a8a1f6eea17f3cb420ac1d5d3bbae4d7632b25a85f2ea421fcfc09ea22d8"
+    },
+    "plauna/themes/_base/theme.json": {
+      "bytes": 3328,
+      "sha256": "2b05907af8bd3bd214047f2e49d2020746275d6d8ce4e9cfd16e8c085a79f34c"
+    },
+    "plauna/themes/custom/theme.json": {
+      "bytes": 1496,
+      "sha256": "33c2a2874916b4388d6f05e1fd12b075648d77b7ac45eecc8226b21a27972e9a"
+    },
+    "plauna/themes/dark/theme.json": {
+      "bytes": 844,
+      "sha256": "8d933ea5f8419b46d088310691c98968fc8ed8781ca0357344d51f265ac7323f"
+    },
+    "plauna/themes/high-contrast/theme.json": {
+      "bytes": 1214,
+      "sha256": "367ac2e889b30e0e66ed144b00fe801b4e02ab5bef89495e0ff519816c9f33a3"
+    },
+    "plauna/themes/index.json": {
+      "bytes": 184,
+      "sha256": "f2cc9fdc1ff6d114cd9231eef262291cf43bfa693c61ec88fdda48624c8dbb74"
+    },
+    "plauna/themes/light/theme.json": {
+      "bytes": 975,
+      "sha256": "db6fdbdb14a3dd5f4f43a34569a59829f8e0c5bf00cae464fe09f63b6d2ce11f"
+    },
+    "plauna/ui/SmartContextMenu.js": {
+      "bytes": 66421,
+      "sha256": "5e2fdc484717fd71f48efd453d9f91de8e9512ef68772ca861be4e20cd2f4407"
+    },
+    "plauna/ui/ToastManager.js": {
+      "bytes": 19402,
+      "sha256": "8c740f38333917cc3ae2da38f2c3c00fbc7a1de76b68dd1b33cf87cab897778d"
+    },
+    "plauna/ui/WidgetGallery.js": {
+      "bytes": 42510,
+      "sha256": "99fc95119bc6371ff9ce29f4d880833b6861e1df65b89d70f6022dbde19547cf"
+    },
+    "plauna/ui/gallery/controls.js": {
+      "bytes": 13880,
+      "sha256": "a0974b065456642cbd447ce47fb1cdb2fd0cd9543328195f7f5fbff7b5c57a9b"
+    },
+    "plauna/ui/gallery/schemas.js": {
+      "bytes": 25421,
+      "sha256": "81b0be2e935c74c1d4f00b21ba81f52d097d96c77ae60280fcc40667554471bf"
+    },
+    "plauna/ui/gallery/snippet.js": {
+      "bytes": 3296,
+      "sha256": "2e35aa7d93c20b43a6a4fbbf5326b10c7b5ce1b0c1b3e0ccfa5917f37f646e64"
+    },
+    "plauna/ui/gallery/styles.js": {
+      "bytes": 16551,
+      "sha256": "f94b988993d80846b52fd632ab07950a6aa93a570d09046cbf82a2641fcf697f"
+    },
+    "plauna/widgets/DataViews/BarChart.js": {
+      "bytes": 10181,
+      "sha256": "675dcd204cfb689165ff1591c340a85c70419a7ff48de829144d7254c9e79828"
+    },
+    "plauna/widgets/DataViews/Calendar.js": {
+      "bytes": 14839,
+      "sha256": "d6f3197a397ba94733b44e5a140e4e14b24d13dc0768dd2bb9234a51c92742ae"
+    },
+    "plauna/widgets/DataViews/Card.js": {
+      "bytes": 21403,
+      "sha256": "45c36abe92dcfa1f1f92ee3a64b83ec8b994f0a5c396882267d54d81a08c58b3"
+    },
+    "plauna/widgets/DataViews/Carousel.js": {
+      "bytes": 10360,
+      "sha256": "eb8f02e4622bc2f223775c8fbb7d3c298d6e391e72b4b64ebc0a70a67f12ed0b"
+    },
+    "plauna/widgets/DataViews/ChatThread.js": {
+      "bytes": 11904,
+      "sha256": "92f34de568dedb4640e32faa7d7fa260966d579af1b9f1ff87701b167ad9f491"
+    },
+    "plauna/widgets/DataViews/DonutChart.js": {
+      "bytes": 8991,
+      "sha256": "fdaae099e6332933d1d426e8f46ac4e955d9cc7eb06095aa0d7adcad50d4e33d"
+    },
+    "plauna/widgets/DataViews/Image.js": {
+      "bytes": 6683,
+      "sha256": "10a7b1412d48685a97fa567146cc2de73dd4ad20a062fe259d4fcd9f3dee1561"
+    },
+    "plauna/widgets/DataViews/KeyValue.js": {
+      "bytes": 8684,
+      "sha256": "ff4748c0a327f6727787bec3c45c8e675186199912016c0a6bbdcdf8ef93c0e2"
+    },
+    "plauna/widgets/DataViews/List.js": {
+      "bytes": 20817,
+      "sha256": "237caa47a7c2d5abcf167e487a3d4cbd047e194204a361e43bc4b0cffc6a9aec"
+    },
+    "plauna/widgets/DataViews/ListView.js": {
+      "bytes": 23380,
+      "sha256": "bfef4eade1655f2d47a9076efd45c6508694f6a52084630e7444cdcc4b96b037"
+    },
+    "plauna/widgets/DataViews/Sparkline.js": {
+      "bytes": 7130,
+      "sha256": "282ff9c9771fd2e82693ff49211af7b16f49f600a544c55a13fc9cc7651eb829"
+    },
+    "plauna/widgets/DataViews/Stat.js": {
+      "bytes": 7601,
+      "sha256": "8d125bc4a1599e1a57378b66bf8df1515a57d5cfa896d5da038a7ca2c8bce619"
+    },
+    "plauna/widgets/DataViews/Table.js": {
+      "bytes": 33545,
+      "sha256": "dce194e5995e1b0b7e25db65ef6214d0cdfa6094f23e40b3063bfa9449873a2b"
+    },
+    "plauna/widgets/DataViews/Timeline.js": {
+      "bytes": 7740,
+      "sha256": "254e30b31910390d1b0ef19cfed00be6664d801c7063a7452652e20ed65dff79"
+    },
+    "plauna/widgets/DataViews/Tree.js": {
+      "bytes": 21758,
+      "sha256": "fb4eeacecd70bf01686e1ece92d699edf8c8bf5d08848c8d043e349c2a438bb8"
+    },
+    "plauna/widgets/Feedback/Alert.js": {
+      "bytes": 19918,
+      "sha256": "d7f8b1661b3cc24c6a005b4885ff08cce3765c8b938d6daea1efbc512e8cc72a"
+    },
+    "plauna/widgets/Feedback/Banner.js": {
+      "bytes": 8989,
+      "sha256": "3aa2a055bd8b11871ef3ed655cf911369ebfc82cfa7945ce6e5e44d7a010b54f"
+    },
+    "plauna/widgets/Feedback/ConfirmDialog.js": {
+      "bytes": 11182,
+      "sha256": "b97f83b10d53f4f8878fd20d45dde02c762a4e513c622071bcb33cc552527a3b"
+    },
+    "plauna/widgets/Feedback/EmptyState.js": {
+      "bytes": 21583,
+      "sha256": "edaebda1a5a3c89c4d88abc3cd55296626ab883814559d4827792e1e333fe20e"
+    },
+    "plauna/widgets/Feedback/Meter.js": {
+      "bytes": 10036,
+      "sha256": "5cc512232789d33cec17efa8729d47a2b9a30dc7d1bd788480eda8c3081a7d4b"
+    },
+    "plauna/widgets/Feedback/Result.js": {
+      "bytes": 6958,
+      "sha256": "ef70378433f8bbd1990d37d8667432ae91563743f9e52edb42e1cf190972e07b"
+    },
+    "plauna/widgets/Feedback/Spinner.js": {
+      "bytes": 18423,
+      "sha256": "f1cb079ca94b736570ca13121582e47c242a6ea445f8d84223c68deda2c8f3db"
+    },
+    "plauna/widgets/Feedback/Status.js": {
+      "bytes": 16357,
+      "sha256": "6411c308697ba5c68edc28a8eb8a8d07cc32f2a649c0647af6eda15880f98e46"
+    },
+    "plauna/widgets/Feedback/Toast.js": {
+      "bytes": 25695,
+      "sha256": "7de6c808efe8dae511220ccb6dcd9eeabaab6ae89cf61ad767f3cc6a354b23da"
+    },
+    "plauna/widgets/Form/Checkbox.js": {
+      "bytes": 18183,
+      "sha256": "c52b5a8d9225b3f029c8e85c8e8c48466856ffe23ebaf1e571b5fd3574f86078"
+    },
+    "plauna/widgets/Form/Input.js": {
+      "bytes": 279,
+      "sha256": "eae8d5d53f834425c88069e7d55e1e931d05a088e450249fedc206760eb60bda"
+    },
+    "plauna/widgets/Form/Radio.js": {
+      "bytes": 17731,
+      "sha256": "86504d954cb09c4e5a96caf10d882f1e4e04ca115baa3a439ecff647c73618cb"
+    },
+    "plauna/widgets/Form/Rating.js": {
+      "bytes": 18612,
+      "sha256": "5603a334ab93c822208051c4a13f530ed0d817592245be9065d62a7e4f846f24"
+    },
+    "plauna/widgets/Form/Select.js": {
+      "bytes": 30463,
+      "sha256": "224f72dbff5d98d0091f67d99b9314d351ee45035ea1859c22ef31c41cffb2ff"
+    },
+    "plauna/widgets/Form/Slider.js": {
+      "bytes": 316,
+      "sha256": "4e584601fcc0e0367451b4df4fd3791fb949988677363dbdcf3deb25f8af3bfe"
+    },
+    "plauna/widgets/Form/Switch.js": {
+      "bytes": 18847,
+      "sha256": "686ad055b658cb0fefdcdb20030426e29d99063b42f04a007fda2c3b73bca2b9"
+    },
+    "plauna/widgets/Form/Textarea.js": {
+      "bytes": 21002,
+      "sha256": "f205aca0eb1f9c82a8cdbc2686420c20e2b67aee12fbdec2fad2e5a44979f473"
+    },
+    "plauna/widgets/Input/Button.js": {
+      "bytes": 301,
+      "sha256": "acacc7863927878b00688de0bb4c40366aedec5517ed2a7a4d20a0790af7d6b1"
+    },
+    "plauna/widgets/Input/Color.js": {
+      "bytes": 21674,
+      "sha256": "08ae2bab8d2cff390f216d0789877a3a0c762d0d219f9c792806f3819f06fa07"
+    },
+    "plauna/widgets/Input/ColorPicker.js": {
+      "bytes": 14642,
+      "sha256": "0a3e0bb94cf272e129c6fa39622616aaf80a4e29ca86c37e080f53928a6b6532"
+    },
+    "plauna/widgets/Input/Combobox.js": {
+      "bytes": 17363,
+      "sha256": "a2016beab81ca9bdc05f8ba57bbd75ba7c020658b9965cea5d2efac57c596dfe"
+    },
+    "plauna/widgets/Input/Date.js": {
+      "bytes": 28381,
+      "sha256": "bf5a77d5bb668d69d48382e7c87da82e9f3d82b9deac51378fb8b12d0f99f962"
+    },
+    "plauna/widgets/Input/DatePicker.js": {
+      "bytes": 8706,
+      "sha256": "6d858da7c3875f3aab57f1ca9afc85b5789fc97cc5de2cf7c4e2490aad89232f"
+    },
+    "plauna/widgets/Input/File.js": {
+      "bytes": 19571,
+      "sha256": "a7612f5e990a8f4a04f9e41aee15c687be80378ef99b6e6ddf0bd225b35cdbc6"
+    },
+    "plauna/widgets/Input/Input.js": {
+      "bytes": 20003,
+      "sha256": "9d85bdcf52fa0e7b3f9c8ddcb8cebe7ceb3e71a66ae3e83fcc643d9301504dbb"
+    },
+    "plauna/widgets/Input/MultiSelect.js": {
+      "bytes": 13258,
+      "sha256": "811973c384fcd2c4a5b1cab097e56d1160a37dc210e889fbc512a98616f3fc96"
+    },
+    "plauna/widgets/Input/Number.js": {
+      "bytes": 22727,
+      "sha256": "c5c1fccbb15c3b944a4e3f31ffaff37a7a2385694d335858c61133145f9863e1"
+    },
+    "plauna/widgets/Input/Password.js": {
+      "bytes": 11847,
+      "sha256": "6395349aaa35c2015aac7dbfdaacabbf83ea2a0737c47359e7532a6f14346b22"
+    },
+    "plauna/widgets/Input/PinInput.js": {
+      "bytes": 9974,
+      "sha256": "d7af58a6594b745e56994ed4242263ccf68d770a15921555feb7697c29ef4d27"
+    },
+    "plauna/widgets/Input/Range.js": {
+      "bytes": 25650,
+      "sha256": "b0698775cb5654b79c6c3d9df4c7742010a3564f00eb378f924443ae9daaef2a"
+    },
+    "plauna/widgets/Input/RangeSlider.js": {
+      "bytes": 10932,
+      "sha256": "0e33e853aedddf5f61baf3c442bafeb134fdd6d3e23b6e834e47cca49ea4422f"
+    },
+    "plauna/widgets/Input/Search.js": {
+      "bytes": 28125,
+      "sha256": "84dea9342e88e232dd4b87d7e4d5264117882025ecc9a756d3d9541e1dca598d"
+    },
+    "plauna/widgets/Input/SegmentedControl.js": {
+      "bytes": 10791,
+      "sha256": "0ab0a882dd7a6264779e9c8103457fdbc709ef8ee1e5c193c4e71109575166c0"
+    },
+    "plauna/widgets/Input/Tag.js": {
+      "bytes": 23811,
+      "sha256": "fc8d5b7989d14d7f7f37cbb709a5f51728e7329adc3c4366a69601def24e5e08"
+    },
+    "plauna/widgets/Input/Time.js": {
+      "bytes": 32755,
+      "sha256": "ca6117145561059abe6e9c06416e92a204d8a6a6e653e08ac4e1a91a433c6514"
+    },
+    "plauna/widgets/Input/Toggle.js": {
+      "bytes": 4804,
+      "sha256": "78c21bea03bf9783a8fa43d78f6e696d66746b166d00295fe8237393c5696e2a"
+    },
+    "plauna/widgets/Input/Upload.js": {
+      "bytes": 30855,
+      "sha256": "c276b38c80106b9560940af9cccb0e3741dba874c4e00b9b0822f9a4f1424ce6"
+    },
+    "plauna/widgets/Layout/Accordion.js": {
+      "bytes": 9893,
+      "sha256": "f9de981c15eb7dc64ed2ab8474ce82db95d108c3bb19356f462993028a1d365c"
+    },
+    "plauna/widgets/Layout/Collapse.js": {
+      "bytes": 27441,
+      "sha256": "0957aab812319a4bd09bb4fa5e5497259161a37dce6fb4cd087305c360c897f0"
+    },
+    "plauna/widgets/Layout/Container.js": {
+      "bytes": 26981,
+      "sha256": "0dafb3a62d7e90cb298517360f2821cd83e1d0db22972a3bc37222d8b4fa2085"
+    },
+    "plauna/widgets/Layout/Divider.js": {
+      "bytes": 14398,
+      "sha256": "597abe0b53d723759c46806f7437c7b7da0d2a8286be3a84efa0c17ec19c535a"
+    },
+    "plauna/widgets/Layout/Grid.js": {
+      "bytes": 16119,
+      "sha256": "8e448d77ec0152f3ea44f9776c524d4b783e72367cc2556f19f5f598945af915"
+    },
+    "plauna/widgets/Layout/HeaderFooter.js": {
+      "bytes": 35822,
+      "sha256": "6b676b48fa3b8e3a40a6876229448d8e437610e7c54565e46624d9f6c553fd71"
+    },
+    "plauna/widgets/Layout/Marquee.js": {
+      "bytes": 6138,
+      "sha256": "d9bc591d746e8240a9a41d115209161b758da0d7320747ca596c036afc463954"
+    },
+    "plauna/widgets/Layout/Panel.js": {
+      "bytes": 296,
+      "sha256": "4371a1a09148b57f184877ac9da1616da9d8ce67941ca2366387985c1f814c6b"
+    },
+    "plauna/widgets/Layout/Section.js": {
+      "bytes": 29620,
+      "sha256": "f5fbcf4e49cde1b46232ce5e2c139c605aff39f244c97c9ca8803874dc8ff8ef"
+    },
+    "plauna/widgets/Layout/Spacer.js": {
+      "bytes": 14415,
+      "sha256": "e7b3b259104d243359ca974fc4f52f78b58d7fb6ebc4abe01ac93e65b20e718d"
+    },
+    "plauna/widgets/Layout/SplitPane.js": {
+      "bytes": 9682,
+      "sha256": "aa76f51d5d77bb925c3443d4e6701b478e242646b940634afb63c19b90bf31a2"
+    },
+    "plauna/widgets/Layout/Stack.js": {
+      "bytes": 5352,
+      "sha256": "91696c64dcea206d76b02bd65310bf81662623fedded6f7e3df18f3dfd920d0d"
+    },
+    "plauna/widgets/Navigation/Breadcrumb.js": {
+      "bytes": 16725,
+      "sha256": "ae7a127d16a62f0c898c93678fd8144040767239539dada834195819abcc1370"
+    },
+    "plauna/widgets/Navigation/CommandPalette.js": {
+      "bytes": 11967,
+      "sha256": "00a19ac0ec82097008b7d4a4d7bcb53252ed8eaa057de6c9886a8c09cb4c3238"
+    },
+    "plauna/widgets/Navigation/Dropdown.js": {
+      "bytes": 21716,
+      "sha256": "cecdc4c545b6998bac0b2b6fc248a7891890341216644c5ab1f925aea5b4b91b"
+    },
+    "plauna/widgets/Navigation/Menu.js": {
+      "bytes": 24894,
+      "sha256": "5ae2728a1f1d7c0ae5c07e7b6663cc8b0d6e3e857f2934c21bdfae3613912f5c"
+    },
+    "plauna/widgets/Navigation/Menubar.js": {
+      "bytes": 12570,
+      "sha256": "b7a0a16512c3d9d580cfeacd7f683af7d591ee602975f7e60a61fa36c589023d"
+    },
+    "plauna/widgets/Navigation/Navbar.js": {
+      "bytes": 27947,
+      "sha256": "a13f00708511b6682ec68e0e731cc1969da666334da84c967f6c74a42f12308b"
+    },
+    "plauna/widgets/Navigation/Pagination.js": {
+      "bytes": 24615,
+      "sha256": "44da95f6a349060f195a63839121a4d8e29f071ec48dd8a38cb55903e2c5c715"
+    },
+    "plauna/widgets/Navigation/Sidebar.js": {
+      "bytes": 28940,
+      "sha256": "dcedb97c2dacd68011c2b1e6941585aeb009c44259b3637143f0fa7844117e3b"
+    },
+    "plauna/widgets/Navigation/SpeedDial.js": {
+      "bytes": 8981,
+      "sha256": "5b2737ecef8034806559085d56e31d208e52c4d0f45b499d4047a4aabb49e7b9"
+    },
+    "plauna/widgets/Navigation/Stepper.js": {
+      "bytes": 24190,
+      "sha256": "9b53351211998b29331ec01bf597943097cefb7f3649b04c0dfa606655dece5d"
+    },
+    "plauna/widgets/Navigation/TableOfContents.js": {
+      "bytes": 5754,
+      "sha256": "ed1282c6a3785ffe471d261a6cb5659341dac7770305195fadc3202d794878d3"
+    },
+    "plauna/widgets/Navigation/Tabs.js": {
+      "bytes": 19462,
+      "sha256": "8085fd5a6d3ce037a70bb3bb97f4c47a33de7bcdec4240400be9658664bc29ab"
+    },
+    "plauna/widgets/Navigation/Toolbar.js": {
+      "bytes": 10404,
+      "sha256": "89a85f3c1bbccfa15393fa18f9621caed237d38ef636d2ad733b2ee3ce740f1a"
+    },
+    "plauna/widgets/Primitive/Avatar.js": {
+      "bytes": 22469,
+      "sha256": "c90c2591d0f3cfb0c2f9016a871546e7655906a027b652ae7cf6456bd295cc15"
+    },
+    "plauna/widgets/Primitive/AvatarGroup.js": {
+      "bytes": 7478,
+      "sha256": "32cfcd9ef9449a320ca4ff30f35c2424baada22ffc3a491f6e41eb0cc176baeb"
+    },
+    "plauna/widgets/Primitive/Badge.js": {
+      "bytes": 13579,
+      "sha256": "eac51fbe231fd7ba59ddeeaa3af1b984921c5e871b22dd11c46cd50e36505119"
+    },
+    "plauna/widgets/Primitive/Button.js": {
+      "bytes": 27097,
+      "sha256": "8da55db2fcea43b0397b2fb9e058f6c61fdf6fcbea538239083e4030ff431b2a"
+    },
+    "plauna/widgets/Primitive/Chip.js": {
+      "bytes": 21944,
+      "sha256": "1b0d7e2e8b6b52619cb8d9ca63142eb048a32d90be189fbbee591d0f7c42c141"
+    },
+    "plauna/widgets/Primitive/Code.js": {
+      "bytes": 13459,
+      "sha256": "571e91b9f78e515750c75d81db7ce19a5e9a3f6f3e8607997ccf96aac17eae37"
+    },
+    "plauna/widgets/Primitive/Drawer.js": {
+      "bytes": 11009,
+      "sha256": "afd45fa6d4f2276bfce013fb62c4d8bde4486c7d1da521ca7a527bfdb427d2f3"
+    },
+    "plauna/widgets/Primitive/IconButton.js": {
+      "bytes": 5646,
+      "sha256": "e357ecd24ef10dbfa1cc90b20227790c578fde9734acede0c94d9ee514332ccb"
+    },
+    "plauna/widgets/Primitive/Kbd.js": {
+      "bytes": 5774,
+      "sha256": "bc5433ed8d781a0610954a8ca6c52726c0d9edf88ebd12410d266b9dba3b74c7"
+    },
+    "plauna/widgets/Primitive/Modal.js": {
+      "bytes": 17224,
+      "sha256": "4c8f6116595c8a4b55232bd5dd5e55e621c6af0015d179a37607b10ae98b6b59"
+    },
+    "plauna/widgets/Primitive/Panel.js": {
+      "bytes": 21680,
+      "sha256": "f5b54ac8a7e34c769ee68c665500bf60fdc2a8c472887452c59f0b5ece531409"
+    },
+    "plauna/widgets/Primitive/Popover.js": {
+      "bytes": 12251,
+      "sha256": "afeefcb8592845d63233b33365a2415f7a7f12006722ff8a9bc9571b6a80c9a3"
+    },
+    "plauna/widgets/Primitive/Progress.js": {
+      "bytes": 20523,
+      "sha256": "5201a24f219387498af87d8e6b4dd5fb774bc41cdc97955775fb80b52275a068"
+    },
+    "plauna/widgets/Primitive/RollingNumber.js": {
+      "bytes": 6372,
+      "sha256": "2918e93106456dc2342c5642fe49c651127b9d7495da60e36f0339819a7d49e5"
+    },
+    "plauna/widgets/Primitive/Skeleton.js": {
+      "bytes": 17168,
+      "sha256": "3c362dc030674070c57aa9314dd05d36ab276496e161590b6757dbf5d880a6d3"
+    },
+    "plauna/widgets/Primitive/Spoiler.js": {
+      "bytes": 5223,
+      "sha256": "7931e1ffa3c96ff98fcb4ab75023826ff7ca5e7c4560ef6a02c7507c1656e52e"
+    },
+    "plauna/widgets/Primitive/Text.js": {
+      "bytes": 16278,
+      "sha256": "78a9115232d2460d8166c5d60102cb95e3823f324c34d1006ebe5d2e755c2c7f"
+    },
+    "plauna/widgets/Primitive/Tooltip.js": {
+      "bytes": 18160,
+      "sha256": "ad1e93c75eddfe1ef8b4dd1018f25c2dde8bda2045bdfc44d8cb8ceba6b3939c"
+    },
+    "plauna/widgets/WidgetConfig.js": {
+      "bytes": 18602,
+      "sha256": "bfe1536e8ee978f17e59a523c0e4f36ad1d580475449f68078099eaf3d5b21d5"
+    },
+    "plauna/widgets/WidgetRenderer.js": {
+      "bytes": 1536,
+      "sha256": "20ba10021692b0c62265325ad4897bf2d021ba50792b74b4c4bbe95f45da976b"
+    },
+    "plauna/widgets/WidgetStyleManager.js": {
+      "bytes": 49521,
+      "sha256": "2d678da052d2de12ebfdb27b7f40ad1dbd925a147396329f37f3eb5ea814be97"
+    },
+    "plauna/widgets/index.js": {
+      "bytes": 16484,
+      "sha256": "2ca526d5ea99aab74418bd94d22e6c47ca5dafc0291dca3df75fc383f68d3bdc"
+    },
+    "plauna/widgets/shared/appearance.js": {
+      "bytes": 19552,
+      "sha256": "59faa1b7ad6592468baaac048524f5eca6236eab4ee09fd059fed713680226a8"
+    },
+    "plauna/workspace/Panel.js": {
+      "bytes": 46011,
+      "sha256": "0b084369b4045c02f7d8eea4fd0b78163f75119e268c90f5c957f3a174112ebd"
+    },
+    "plauna/workspace/PanelLayout.js": {
+      "bytes": 7797,
+      "sha256": "8e119059a48704f7d2256d4c78f1d8a0b127abf2b4dfdded31a739765b2b2d5b"
+    },
+    "plauna/workspace/Workspace.js": {
+      "bytes": 7649,
+      "sha256": "6428fed9c6ff4f299b4724f73ed546c13d959bfaf8cc7737bd5c930f70f1267a"
+    },
+    "plauna/workspace/WorkspaceCompositor.js": {
+      "bytes": 6938,
+      "sha256": "f324bf7c72bb3d84c6c344b9565c94a4a73f756fbf95a11d570a21034b46d0df"
+    },
+    "plauna/workspace/WorkspaceManager.js": {
+      "bytes": 11178,
+      "sha256": "e71d3572b18726ac09d3718c2eeff7c5684d54402935545b97b5e449d4ad7386"
+    },
+    "plauna/workspace/WorkspaceSwitcher.js": {
+      "bytes": 8829,
+      "sha256": "78fa60d561b541aba4ba6b2579fa11bc8557615b781456335539442b88216b0e"
+    },
+    "plauna/workspace/index.js": {
+      "bytes": 754,
+      "sha256": "126e2f147f0364226e07c712146050ec7c340f686c4bf55544e7135a600f1c2b"
+    },
+    "tests/plauna-gpu-input.html": {
+      "bytes": 856,
+      "sha256": "3b77fc18b91775a43a6d59d92f8355036efd9ce38d72f1376be51c4e1a956d98"
+    },
+    "tests/plauna-gpu-input.js": {
+      "bytes": 4596,
+      "sha256": "e1754c85902736ac674ab5e51fba6dc6e472f3d25ab10e2c3b550451441aa95b"
+    },
+    "tests/plauna-layout-parity.html": {
+      "bytes": 1296,
+      "sha256": "a9ca3bd6785cfbdb1801e8996d797d1a8de2c40a444dbf65767f93e7587040ef"
+    },
+    "tests/plauna-layout-parity.test.js": {
+      "bytes": 104163,
+      "sha256": "f8dfddc92912b833a5421d840654d8e1086b562e9f370534251974ab7269e7cc"
+    },
+    "tests/plauna_browser_support.py": {
+      "bytes": 4319,
+      "sha256": "439f6301db0877b97bea74ae8484519bc5ab8e3d5609adf6e7c73e3c1b5871ea"
+    },
+    "tests/storage/performance_run_lock.py": {
+      "bytes": 4606,
+      "sha256": "c024e0e238d2eaa75a084c22627fe99b60d89c9cf8f641400e1fa2076b235cfa"
+    },
+    "tests/test_plauna_button_browser.py": {
+      "bytes": 15876,
+      "sha256": "97e891536e1bf2b5a7fe30efa465d54e87d46c8a8de73237818fdc4687217c64"
+    },
+    "tests/test_plauna_faces_bars_parity.py": {
+      "bytes": 57092,
+      "sha256": "76e7c48675387418666a9b7a519363161aa85e65588f47cf218b0ada42e7046e"
+    },
+    "tests/test_plauna_focus_ring_parity.py": {
+      "bytes": 11294,
+      "sha256": "5c8d0295d9f4457b36b41a104e7e034e8f9d82a48b6578611b66ff664ec2b82e"
+    },
+    "tests/test_plauna_gpu_input.py": {
+      "bytes": 8210,
+      "sha256": "c2857b9e917bd14659c02d146df41b1546b19dc0f42f9868d64c3cc925472d50"
+    },
+    "tests/test_plauna_layout_paint_parity.py": {
+      "bytes": 15086,
+      "sha256": "5ee88677a7068d49ac6e14c4ec713ab5b875f01c458e5865e2f968d537cb7bac"
+    },
+    "tests/test_plauna_layout_scrollbars.py": {
+      "bytes": 37344,
+      "sha256": "c7060c6be661c1a6c8dcf81aa20618011065f94be096fdeb62b32936ca694db2"
+    },
+    "tests/test_plauna_native_paint_parity.py": {
+      "bytes": 8779,
+      "sha256": "d22ca5589f5a6425f517017075e00c3b2bb00221d3c52272eef60ad029d6b29d"
+    },
+    "tests/test_plauna_native_well.py": {
+      "bytes": 69126,
+      "sha256": "0e8b372209bbe410a0d6eb762f7ba51243ef647d7c3a152fa11fa2d6ae9b88eb"
+    },
+    "tests/test_plauna_real_scaling.py": {
+      "bytes": 16282,
+      "sha256": "81b8e88f9bec5581b697803b06eb13432bf8ca17ad598c2acde3c932cfc9a449"
+    },
+    "tests/test_plauna_style_fields_scrollbars.py": {
+      "bytes": 9794,
+      "sha256": "006f040c8794b3108356cf664fdb03f0605548b9c920126ac67966a7c15b9cd7"
+    },
+    "tests/test_plauna_surface_sticky.py": {
+      "bytes": 17449,
+      "sha256": "b5458a01392aa009e2a05a64b1a46e9d662ea1de0aef0b7a98a72d0a4fa8fb0f"
+    },
+    "tests/test_plauna_text_features.py": {
+      "bytes": 35663,
+      "sha256": "9a56fb5e21ab4fd3694dac0475b2c5cc86370ec107298f4510465d9280f2a49f"
+    },
+    "webgpu-os/apps/the-virtual-realm/contracts/CanonicalRealmEncoding.js": {
+      "bytes": 37863,
+      "sha256": "256d4c41a1e5ecb2fc623ec62dc2a9c93dcf5656b15e5c8062dc1ae2549ad356"
+    },
+    "webgpu-os/apps/the-virtual-realm/contracts/RealmContractCapturedOperations.js": {
+      "bytes": 16986,
+      "sha256": "6b379c52eda1b357d985c12e1cd2e7af9eec919bb07d223e4ab4692e306867e1"
+    },
+    "webgpu-os/apps/the-virtual-realm/contracts/RealmContractError.js": {
+      "bytes": 8122,
+      "sha256": "c5dc6c48a21f73fdbc22420d282f17b793eb270214ce6bb6abd180c6fb9b733d"
+    },
+    "webgpu-os/apps/the-virtual-realm/contracts/RealmContractLimits.js": {
+      "bytes": 5041,
+      "sha256": "536eb5952baca4a450fb5652eb17d4ccc15d8da78587d897c7ee6e308216db99"
+    },
+    "webgpu-os/apps/the-virtual-realm/contracts/RealmContractValuePreflight.js": {
+      "bytes": 17548,
+      "sha256": "a9365c444a15f7abd544f7bc2f7a72bebe2949046523f3a0d7134ebde4adfb5b"
+    },
+    "webgpu-os/shared/SmartContextAssist.js": {
+      "bytes": 4031,
+      "sha256": "013d6caaf249ab8b3f6ff346dacc6f61cca2d1735e8082c2921a64078352c5a8"
+    }
+  },
+  "format": "plauna-library/v1",
+  "full_version": "v0.3.0-alpha",
+  "generated": [
+    "LICENSE",
+    "index.js",
+    "dist/plauna.js",
+    ".gitattributes",
+    "CHANGELOG.md",
+    "README.md",
+    "examples/app.js",
+    "examples/compiled.html",
+    "examples/index.html",
+    "examples/showcase.html",
+    "examples/showcase.js",
+    "examples/source.html",
+    "examples/styles.css"
+  ],
+  "licenses": {
+    "engine/": "LicenseRef-ParticleRealms-Alpha",
+    "plauna/": "MIT",
+    "webgpu-os/": "LicenseRef-ParticleRealms-Alpha"
+  },
+  "max_output_bytes": 100000000,
+  "output_sources": {
+    "AUTHORS": "AUTHORS",
+    "LICENSES/LicenseRef-ParticleRealms-Alpha.txt": "LICENSES/LicenseRef-ParticleRealms-Alpha.txt",
+    "NOTICE.md": "NOTICE.md",
+    "bundler/__init__.py": "bundler/__init__.py",
+    "bundler/builder.py": "bundler/builder.py",
+    "bundler/config.py": "bundler/config.py",
+    "bundler/cyclic_baseline.json": "bundler/cyclic_baseline.json",
+    "bundler/emitter.py": "bundler/emitter.py",
+    "bundler/graph.py": "bundler/graph.py",
+    "bundler/parser.py": "bundler/parser.py",
+    "bundler/plauna.py": "bundler/plauna.py",
+    "bundler/plauna_assets.py": "bundler/plauna_assets.py",
+    "bundler/plauna_templates/.gitattributes": "bundler/plauna_templates/.gitattributes",
+    "bundler/plauna_templates/CHANGELOG.md": "bundler/plauna_templates/CHANGELOG.md",
+    "bundler/plauna_templates/README.md": "bundler/plauna_templates/README.md",
+    "bundler/plauna_templates/examples/app.js": "bundler/plauna_templates/examples/app.js",
+    "bundler/plauna_templates/examples/compiled.html": "bundler/plauna_templates/examples/compiled.html",
+    "bundler/plauna_templates/examples/index.html": "bundler/plauna_templates/examples/index.html",
+    "bundler/plauna_templates/examples/showcase.html": "bundler/plauna_templates/examples/showcase.html",
+    "bundler/plauna_templates/examples/showcase.js": "bundler/plauna_templates/examples/showcase.js",
+    "bundler/plauna_templates/examples/source.html": "bundler/plauna_templates/examples/source.html",
+    "bundler/plauna_templates/examples/styles.css": "bundler/plauna_templates/examples/styles.css",
+    "bundler/release_validation.py": "bundler/release_validation.py",
+    "bundler/scan_import_paths.py": "bundler/scan_import_paths.py",
+    "bundler/security_fs.py": "bundler/security_fs.py",
+    "bundler/tests/__init__.py": "bundler/tests/__init__.py",
+    "bundler/tests/test_plauna_distribution_browser.py": "bundler/tests/test_plauna_distribution_browser.py",
+    "bundler/tests/test_plauna_export.py": "bundler/tests/test_plauna_export.py",
+    "bundler/textscan.py": "bundler/textscan.py",
+    "bundler/transform.py": "bundler/transform.py",
+    "engine/collab/CollabIdentity.js": "engine/collab/CollabIdentity.js",
+    "engine/core/compute/WasmCapabilities.js": "engine/core/compute/WasmCapabilities.js",
+    "engine/core/gpu/AsyncComputeScheduler.js": "engine/core/gpu/AsyncComputeScheduler.js",
+    "engine/core/gpu/AsyncGPUWorkScheduler.js": "engine/core/gpu/AsyncGPUWorkScheduler.js",
+    "engine/core/gpu/BufferPool.js": "engine/core/gpu/BufferPool.js",
+    "engine/core/gpu/GPUTimestampProfiler.js": "engine/core/gpu/GPUTimestampProfiler.js",
+    "engine/core/gpu/GpuDebug.js": "engine/core/gpu/GpuDebug.js",
+    "engine/core/gpu/GpuDescriptorIdentity.js": "engine/core/gpu/GpuDescriptorIdentity.js",
+    "engine/core/gpu/GpuDevice.js": "engine/core/gpu/GpuDevice.js",
+    "engine/core/gpu/GpuDeviceOwnership.js": "engine/core/gpu/GpuDeviceOwnership.js",
+    "engine/core/gpu/GpuFormats.js": "engine/core/gpu/GpuFormats.js",
+    "engine/core/gpu/GpuFrameBudgetBroker.js": "engine/core/gpu/GpuFrameBudgetBroker.js",
+    "engine/core/gpu/GpuMapAccelerator.js": "engine/core/gpu/GpuMapAccelerator.js",
+    "engine/core/gpu/GpuShaderDiagnostics.js": "engine/core/gpu/GpuShaderDiagnostics.js",
+    "engine/core/gpu/PipelineCache.js": "engine/core/gpu/PipelineCache.js",
+    "engine/core/gpu/VGPUBindGroupManager.js": "engine/core/gpu/VGPUBindGroupManager.js",
+    "engine/core/gpu/VGPUBindless.js": "engine/core/gpu/VGPUBindless.js",
+    "engine/core/gpu/VGPUComputeUtils.js": "engine/core/gpu/VGPUComputeUtils.js",
+    "engine/core/gpu/VGPUDebugDraw.js": "engine/core/gpu/VGPUDebugDraw.js",
+    "engine/core/gpu/VGPUHiZCulling.js": "engine/core/gpu/VGPUHiZCulling.js",
+    "engine/core/gpu/VGPUIndirectRenderer.js": "engine/core/gpu/VGPUIndirectRenderer.js",
+    "engine/core/gpu/VGPUMemoryTracker.js": "engine/core/gpu/VGPUMemoryTracker.js",
+    "engine/core/gpu/VGPUMultiQueue.js": "engine/core/gpu/VGPUMultiQueue.js",
+    "engine/core/gpu/VGPUQualityScaler.js": "engine/core/gpu/VGPUQualityScaler.js",
+    "engine/core/gpu/VGPUReadbackQueue.js": "engine/core/gpu/VGPUReadbackQueue.js",
+    "engine/core/gpu/VGPURenderGraph.js": "engine/core/gpu/VGPURenderGraph.js",
+    "engine/core/gpu/VGPURenderStats.js": "engine/core/gpu/VGPURenderStats.js",
+    "engine/core/gpu/VGPUResourceBarriers.js": "engine/core/gpu/VGPUResourceBarriers.js",
+    "engine/core/gpu/VGPUShaderReflection.js": "engine/core/gpu/VGPUShaderReflection.js",
+    "engine/core/gpu/VGPUStreamingManager.js": "engine/core/gpu/VGPUStreamingManager.js",
+    "engine/core/gpu/VGPUTextureAtlas.js": "engine/core/gpu/VGPUTextureAtlas.js",
+    "engine/core/gpu/VGPUTimelineSemaphores.js": "engine/core/gpu/VGPUTimelineSemaphores.js",
+    "engine/core/gpu/VirtualGPU.js": "engine/core/gpu/VirtualGPU.js",
+    "engine/core/gpu/WGSLPreprocessor.js": "engine/core/gpu/WGSLPreprocessor.js",
+    "engine/core/math/BlendMath.js": "engine/core/math/BlendMath.js",
+    "engine/core/math/BufferMath.js": "engine/core/math/BufferMath.js",
+    "engine/core/math/ChecksumMath.js": "engine/core/math/ChecksumMath.js",
+    "engine/core/math/FormatMath.js": "engine/core/math/FormatMath.js",
+    "engine/core/math/FrameMath.js": "engine/core/math/FrameMath.js",
+    "engine/core/math/ImageMath.js": "engine/core/math/ImageMath.js",
+    "engine/core/math/MathColor.js": "engine/core/math/MathColor.js",
+    "engine/core/math/MathConstants.js": "engine/core/math/MathConstants.js",
+    "engine/core/math/MathEasing.js": "engine/core/math/MathEasing.js",
+    "engine/core/math/MathEntropy.js": "engine/core/math/MathEntropy.js",
+    "engine/core/math/MathQuality.js": "engine/core/math/MathQuality.js",
+    "engine/core/math/MathRandom.js": "engine/core/math/MathRandom.js",
+    "engine/core/math/MathScalar.js": "engine/core/math/MathScalar.js",
+    "engine/core/math/MathStatistics.js": "engine/core/math/MathStatistics.js",
+    "engine/core/math/MathValidation.js": "engine/core/math/MathValidation.js",
+    "engine/core/math/MathVec2.js": "engine/core/math/MathVec2.js",
+    "engine/core/math/RectanglePacking.js": "engine/core/math/RectanglePacking.js",
+    "engine/core/math/TextureMath.js": "engine/core/math/TextureMath.js",
+    "engine/core/math/UILayoutMath.js": "engine/core/math/UILayoutMath.js",
+    "engine/core/math/UnitMath.js": "engine/core/math/UnitMath.js",
+    "engine/core/memory/GPUMemoryManager.js": "engine/core/memory/GPUMemoryManager.js",
+    "engine/ecs/EntitySchema.js": "engine/ecs/EntitySchema.js",
+    "engine/ecs/components/ComponentRegistry.js": "engine/ecs/components/ComponentRegistry.js",
+    "engine/ecs/storage/ArchetypeStorage.js": "engine/ecs/storage/ArchetypeStorage.js",
+    "engine/ecs/world/World.js": "engine/ecs/world/World.js",
+    "engine/network/crypto/Hpke.js": "engine/network/crypto/Hpke.js",
+    "engine/network/crypto/Trust.js": "engine/network/crypto/Trust.js",
+    "engine/network/protocol.js": "engine/network/protocol.js",
+    "engine/network/realm/addressing/RealmIds.js": "engine/network/realm/addressing/RealmIds.js",
+    "engine/network/realm/authority/AuthorityLease.js": "engine/network/realm/authority/AuthorityLease.js",
+    "engine/network/stateChannels/BroadcastStateChannelTransport.js": "engine/network/stateChannels/BroadcastStateChannelTransport.js",
+    "engine/network/stateChannels/InProcessStateChannelTransport.js": "engine/network/stateChannels/InProcessStateChannelTransport.js",
+    "engine/network/stateChannels/MeshStateChannelTransport.js": "engine/network/stateChannels/MeshStateChannelTransport.js",
+    "engine/network/stateChannels/SseStateChannelTransport.js": "engine/network/stateChannels/SseStateChannelTransport.js",
+    "engine/network/stateChannels/StateChannelClient.js": "engine/network/stateChannels/StateChannelClient.js",
+    "engine/network/stateChannels/StateChannelContract.js": "engine/network/stateChannels/StateChannelContract.js",
+    "engine/network/stateChannels/StateChannelFederationProof.js": "engine/network/stateChannels/StateChannelFederationProof.js",
+    "engine/network/stateChannels/StateChannelTransportResolver.js": "engine/network/stateChannels/StateChannelTransportResolver.js",
+    "engine/state/authority/Identity.js": "engine/state/authority/Identity.js",
+    "engine/state/util/canonical.js": "engine/state/util/canonical.js",
+    "engine/tools/console/HtmlConsole.js": "engine/tools/console/HtmlConsole.js",
+    "engine/version.js": "engine/version.js",
+    "plauna/ARCHITECTURE.md": "plauna/ARCHITECTURE.md",
+    "plauna/LICENSE": "plauna/LICENSE",
+    "plauna/README.md": "plauna/README.md",
+    "plauna/SHOWCASE_INTEGRATION.md": "plauna/SHOWCASE_INTEGRATION.md",
+    "plauna/boot.js": "plauna/boot.js",
+    "plauna/console/PlaunaConsole.js": "plauna/console/PlaunaConsole.js",
+    "plauna/core/BindingEngine.js": "plauna/core/BindingEngine.js",
+    "plauna/core/DOMRenderer.js": "plauna/core/DOMRenderer.js",
+    "plauna/core/ModuleTester.js": "plauna/core/ModuleTester.js",
+    "plauna/core/StateStore.js": "plauna/core/StateStore.js",
+    "plauna/core/UINode.js": "plauna/core/UINode.js",
+    "plauna/core/VisualTree.js": "plauna/core/VisualTree.js",
+    "plauna/core/app.js": "plauna/core/app.js",
+    "plauna/core/events.js": "plauna/core/events.js",
+    "plauna/core/registry.js": "plauna/core/registry.js",
+    "plauna/ecs/components.js": "plauna/ecs/components.js",
+    "plauna/editor/HotReload.js": "plauna/editor/HotReload.js",
+    "plauna/index.js": "plauna/index.js",
+    "plauna/lab/showcase-app.js": "plauna/lab/showcase-app.js",
+    "plauna/lab/workbench-lab.js": "plauna/lab/workbench-lab.js",
+    "plauna/lab/workbench/backdrop.js": "plauna/lab/workbench/backdrop.js",
+    "plauna/lab/workbench/demos-data.js": "plauna/lab/workbench/demos-data.js",
+    "plauna/lab/workbench/demos-feedback.js": "plauna/lab/workbench/demos-feedback.js",
+    "plauna/lab/workbench/demos-layout.js": "plauna/lab/workbench/demos-layout.js",
+    "plauna/lab/workbench/demos-navigation.js": "plauna/lab/workbench/demos-navigation.js",
+    "plauna/lab/workbench/demos-primitive.js": "plauna/lab/workbench/demos-primitive.js",
+    "plauna/lab/workbench/gallery.js": "plauna/lab/workbench/gallery.js",
+    "plauna/lab/workbench/renderer.js": "plauna/lab/workbench/renderer.js",
+    "plauna/lab/workbench/shell.js": "plauna/lab/workbench/shell.js",
+    "plauna/lab/workbench/support.js": "plauna/lab/workbench/support.js",
+    "plauna/layout/LayoutSizing.js": "plauna/layout/LayoutSizing.js",
+    "plauna/motion/MPAFallback.js": "plauna/motion/MPAFallback.js",
+    "plauna/motion/PageTransition.js": "plauna/motion/PageTransition.js",
+    "plauna/motion/PageTransitionContracts.js": "plauna/motion/PageTransitionContracts.js",
+    "plauna/motion/PageTransitionManager.js": "plauna/motion/PageTransitionManager.js",
+    "plauna/motion/PageTransitionPresets.js": "plauna/motion/PageTransitionPresets.js",
+    "plauna/motion/TransitionEngine.js": "plauna/motion/TransitionEngine.js",
+    "plauna/notifications/NotificationSystem.js": "plauna/notifications/NotificationSystem.js",
+    "plauna/notifications/README.md": "plauna/notifications/README.md",
+    "plauna/particle/ParticleController.js": "plauna/particle/ParticleController.js",
+    "plauna/particle/bridge.js": "plauna/particle/bridge.js",
+    "plauna/render/AnimationController.js": "plauna/render/AnimationController.js",
+    "plauna/render/GlassUnderlay.js": "plauna/render/GlassUnderlay.js",
+    "plauna/render/LayerAnimations.js": "plauna/render/LayerAnimations.js",
+    "plauna/render/NativeWell.js": "plauna/render/NativeWell.js",
+    "plauna/render/RenderModes.js": "plauna/render/RenderModes.js",
+    "plauna/render/RenderSurface.js": "plauna/render/RenderSurface.js",
+    "plauna/render/css/CssValues.js": "plauna/render/css/CssValues.js",
+    "plauna/render/css/StyleResolver.js": "plauna/render/css/StyleResolver.js",
+    "plauna/render/css/StyleRules.js": "plauna/render/css/StyleRules.js",
+    "plauna/render/css/UserAgentStyles.js": "plauna/render/css/UserAgentStyles.js",
+    "plauna/render/gpu/BlurPass.js": "plauna/render/gpu/BlurPass.js",
+    "plauna/render/gpu/DisplayList.js": "plauna/render/gpu/DisplayList.js",
+    "plauna/render/gpu/GpuPainter.js": "plauna/render/gpu/GpuPainter.js",
+    "plauna/render/gpu/PaintWorker.js": "plauna/render/gpu/PaintWorker.js",
+    "plauna/render/gpu/PaintWorkerHost.js": "plauna/render/gpu/PaintWorkerHost.js",
+    "plauna/render/gpu/Rasterizer.js": "plauna/render/gpu/Rasterizer.js",
+    "plauna/render/gpu/SurfaceCompositor.js": "plauna/render/gpu/SurfaceCompositor.js",
+    "plauna/render/gpu/shaders.js": "plauna/render/gpu/shaders.js",
+    "plauna/render/index.js": "plauna/render/index.js",
+    "plauna/render/layout/FlexLayout.js": "plauna/render/layout/FlexLayout.js",
+    "plauna/render/layout/GridLayout.js": "plauna/render/layout/GridLayout.js",
+    "plauna/render/layout/InlineLayout.js": "plauna/render/layout/InlineLayout.js",
+    "plauna/render/layout/LayoutEngine.js": "plauna/render/layout/LayoutEngine.js",
+    "plauna/render/layout/LayoutTree.js": "plauna/render/layout/LayoutTree.js",
+    "plauna/render/layout/LayoutUnits.js": "plauna/render/layout/LayoutUnits.js",
+    "plauna/render/layout/TableLayout.js": "plauna/render/layout/TableLayout.js",
+    "plauna/render/text/TextShaper.js": "plauna/render/text/TextShaper.js",
+    "plauna/style/AdaptiveThemeFactory.js": "plauna/style/AdaptiveThemeFactory.js",
+    "plauna/style/CSSGenerator.js": "plauna/style/CSSGenerator.js",
+    "plauna/style/ComputedStyle.js": "plauna/style/ComputedStyle.js",
+    "plauna/style/DesignTokenContracts.js": "plauna/style/DesignTokenContracts.js",
+    "plauna/style/DesignTokens.js": "plauna/style/DesignTokens.js",
+    "plauna/style/LayerManager.js": "plauna/style/LayerManager.js",
+    "plauna/style/StyleSizing.js": "plauna/style/StyleSizing.js",
+    "plauna/style/ThemeController.js": "plauna/style/ThemeController.js",
+    "plauna/style/ThemeManager.js": "plauna/style/ThemeManager.js",
+    "plauna/style/index.js": "plauna/style/index.js",
+    "plauna/styles/plauna.css": "plauna/styles/plauna.css",
+    "plauna/surface/surface-manager.js": "plauna/surface/surface-manager.js",
+    "plauna/text/pretext-service.js": "plauna/text/pretext-service.js",
+    "plauna/themes/README.md": "plauna/themes/README.md",
+    "plauna/themes/ThemeContracts.js": "plauna/themes/ThemeContracts.js",
+    "plauna/themes/ThemeLoader.js": "plauna/themes/ThemeLoader.js",
+    "plauna/themes/ThemePreference.js": "plauna/themes/ThemePreference.js",
+    "plauna/themes/_base/theme.json": "plauna/themes/_base/theme.json",
+    "plauna/themes/custom/theme.json": "plauna/themes/custom/theme.json",
+    "plauna/themes/dark/theme.json": "plauna/themes/dark/theme.json",
+    "plauna/themes/high-contrast/theme.json": "plauna/themes/high-contrast/theme.json",
+    "plauna/themes/index.json": "plauna/themes/index.json",
+    "plauna/themes/light/theme.json": "plauna/themes/light/theme.json",
+    "plauna/ui/SmartContextMenu.js": "plauna/ui/SmartContextMenu.js",
+    "plauna/ui/ToastManager.js": "plauna/ui/ToastManager.js",
+    "plauna/ui/WidgetGallery.js": "plauna/ui/WidgetGallery.js",
+    "plauna/ui/gallery/controls.js": "plauna/ui/gallery/controls.js",
+    "plauna/ui/gallery/schemas.js": "plauna/ui/gallery/schemas.js",
+    "plauna/ui/gallery/snippet.js": "plauna/ui/gallery/snippet.js",
+    "plauna/ui/gallery/styles.js": "plauna/ui/gallery/styles.js",
+    "plauna/widgets/DataViews/BarChart.js": "plauna/widgets/DataViews/BarChart.js",
+    "plauna/widgets/DataViews/Calendar.js": "plauna/widgets/DataViews/Calendar.js",
+    "plauna/widgets/DataViews/Card.js": "plauna/widgets/DataViews/Card.js",
+    "plauna/widgets/DataViews/Carousel.js": "plauna/widgets/DataViews/Carousel.js",
+    "plauna/widgets/DataViews/ChatThread.js": "plauna/widgets/DataViews/ChatThread.js",
+    "plauna/widgets/DataViews/DonutChart.js": "plauna/widgets/DataViews/DonutChart.js",
+    "plauna/widgets/DataViews/Image.js": "plauna/widgets/DataViews/Image.js",
+    "plauna/widgets/DataViews/KeyValue.js": "plauna/widgets/DataViews/KeyValue.js",
+    "plauna/widgets/DataViews/List.js": "plauna/widgets/DataViews/List.js",
+    "plauna/widgets/DataViews/ListView.js": "plauna/widgets/DataViews/ListView.js",
+    "plauna/widgets/DataViews/Sparkline.js": "plauna/widgets/DataViews/Sparkline.js",
+    "plauna/widgets/DataViews/Stat.js": "plauna/widgets/DataViews/Stat.js",
+    "plauna/widgets/DataViews/Table.js": "plauna/widgets/DataViews/Table.js",
+    "plauna/widgets/DataViews/Timeline.js": "plauna/widgets/DataViews/Timeline.js",
+    "plauna/widgets/DataViews/Tree.js": "plauna/widgets/DataViews/Tree.js",
+    "plauna/widgets/Feedback/Alert.js": "plauna/widgets/Feedback/Alert.js",
+    "plauna/widgets/Feedback/Banner.js": "plauna/widgets/Feedback/Banner.js",
+    "plauna/widgets/Feedback/ConfirmDialog.js": "plauna/widgets/Feedback/ConfirmDialog.js",
+    "plauna/widgets/Feedback/EmptyState.js": "plauna/widgets/Feedback/EmptyState.js",
+    "plauna/widgets/Feedback/Meter.js": "plauna/widgets/Feedback/Meter.js",
+    "plauna/widgets/Feedback/Result.js": "plauna/widgets/Feedback/Result.js",
+    "plauna/widgets/Feedback/Spinner.js": "plauna/widgets/Feedback/Spinner.js",
+    "plauna/widgets/Feedback/Status.js": "plauna/widgets/Feedback/Status.js",
+    "plauna/widgets/Feedback/Toast.js": "plauna/widgets/Feedback/Toast.js",
+    "plauna/widgets/Form/Checkbox.js": "plauna/widgets/Form/Checkbox.js",
+    "plauna/widgets/Form/Input.js": "plauna/widgets/Form/Input.js",
+    "plauna/widgets/Form/Radio.js": "plauna/widgets/Form/Radio.js",
+    "plauna/widgets/Form/Rating.js": "plauna/widgets/Form/Rating.js",
+    "plauna/widgets/Form/Select.js": "plauna/widgets/Form/Select.js",
+    "plauna/widgets/Form/Slider.js": "plauna/widgets/Form/Slider.js",
+    "plauna/widgets/Form/Switch.js": "plauna/widgets/Form/Switch.js",
+    "plauna/widgets/Form/Textarea.js": "plauna/widgets/Form/Textarea.js",
+    "plauna/widgets/Input/Button.js": "plauna/widgets/Input/Button.js",
+    "plauna/widgets/Input/Color.js": "plauna/widgets/Input/Color.js",
+    "plauna/widgets/Input/ColorPicker.js": "plauna/widgets/Input/ColorPicker.js",
+    "plauna/widgets/Input/Combobox.js": "plauna/widgets/Input/Combobox.js",
+    "plauna/widgets/Input/Date.js": "plauna/widgets/Input/Date.js",
+    "plauna/widgets/Input/DatePicker.js": "plauna/widgets/Input/DatePicker.js",
+    "plauna/widgets/Input/File.js": "plauna/widgets/Input/File.js",
+    "plauna/widgets/Input/Input.js": "plauna/widgets/Input/Input.js",
+    "plauna/widgets/Input/MultiSelect.js": "plauna/widgets/Input/MultiSelect.js",
+    "plauna/widgets/Input/Number.js": "plauna/widgets/Input/Number.js",
+    "plauna/widgets/Input/Password.js": "plauna/widgets/Input/Password.js",
+    "plauna/widgets/Input/PinInput.js": "plauna/widgets/Input/PinInput.js",
+    "plauna/widgets/Input/Range.js": "plauna/widgets/Input/Range.js",
+    "plauna/widgets/Input/RangeSlider.js": "plauna/widgets/Input/RangeSlider.js",
+    "plauna/widgets/Input/Search.js": "plauna/widgets/Input/Search.js",
+    "plauna/widgets/Input/SegmentedControl.js": "plauna/widgets/Input/SegmentedControl.js",
+    "plauna/widgets/Input/Tag.js": "plauna/widgets/Input/Tag.js",
+    "plauna/widgets/Input/Time.js": "plauna/widgets/Input/Time.js",
+    "plauna/widgets/Input/Toggle.js": "plauna/widgets/Input/Toggle.js",
+    "plauna/widgets/Input/Upload.js": "plauna/widgets/Input/Upload.js",
+    "plauna/widgets/Layout/Accordion.js": "plauna/widgets/Layout/Accordion.js",
+    "plauna/widgets/Layout/Collapse.js": "plauna/widgets/Layout/Collapse.js",
+    "plauna/widgets/Layout/Container.js": "plauna/widgets/Layout/Container.js",
+    "plauna/widgets/Layout/Divider.js": "plauna/widgets/Layout/Divider.js",
+    "plauna/widgets/Layout/Grid.js": "plauna/widgets/Layout/Grid.js",
+    "plauna/widgets/Layout/HeaderFooter.js": "plauna/widgets/Layout/HeaderFooter.js",
+    "plauna/widgets/Layout/Marquee.js": "plauna/widgets/Layout/Marquee.js",
+    "plauna/widgets/Layout/Panel.js": "plauna/widgets/Layout/Panel.js",
+    "plauna/widgets/Layout/Section.js": "plauna/widgets/Layout/Section.js",
+    "plauna/widgets/Layout/Spacer.js": "plauna/widgets/Layout/Spacer.js",
+    "plauna/widgets/Layout/SplitPane.js": "plauna/widgets/Layout/SplitPane.js",
+    "plauna/widgets/Layout/Stack.js": "plauna/widgets/Layout/Stack.js",
+    "plauna/widgets/Navigation/Breadcrumb.js": "plauna/widgets/Navigation/Breadcrumb.js",
+    "plauna/widgets/Navigation/CommandPalette.js": "plauna/widgets/Navigation/CommandPalette.js",
+    "plauna/widgets/Navigation/Dropdown.js": "plauna/widgets/Navigation/Dropdown.js",
+    "plauna/widgets/Navigation/Menu.js": "plauna/widgets/Navigation/Menu.js",
+    "plauna/widgets/Navigation/Menubar.js": "plauna/widgets/Navigation/Menubar.js",
+    "plauna/widgets/Navigation/Navbar.js": "plauna/widgets/Navigation/Navbar.js",
+    "plauna/widgets/Navigation/Pagination.js": "plauna/widgets/Navigation/Pagination.js",
+    "plauna/widgets/Navigation/Sidebar.js": "plauna/widgets/Navigation/Sidebar.js",
+    "plauna/widgets/Navigation/SpeedDial.js": "plauna/widgets/Navigation/SpeedDial.js",
+    "plauna/widgets/Navigation/Stepper.js": "plauna/widgets/Navigation/Stepper.js",
+    "plauna/widgets/Navigation/TableOfContents.js": "plauna/widgets/Navigation/TableOfContents.js",
+    "plauna/widgets/Navigation/Tabs.js": "plauna/widgets/Navigation/Tabs.js",
+    "plauna/widgets/Navigation/Toolbar.js": "plauna/widgets/Navigation/Toolbar.js",
+    "plauna/widgets/Primitive/Avatar.js": "plauna/widgets/Primitive/Avatar.js",
+    "plauna/widgets/Primitive/AvatarGroup.js": "plauna/widgets/Primitive/AvatarGroup.js",
+    "plauna/widgets/Primitive/Badge.js": "plauna/widgets/Primitive/Badge.js",
+    "plauna/widgets/Primitive/Button.js": "plauna/widgets/Primitive/Button.js",
+    "plauna/widgets/Primitive/Chip.js": "plauna/widgets/Primitive/Chip.js",
+    "plauna/widgets/Primitive/Code.js": "plauna/widgets/Primitive/Code.js",
+    "plauna/widgets/Primitive/Drawer.js": "plauna/widgets/Primitive/Drawer.js",
+    "plauna/widgets/Primitive/IconButton.js": "plauna/widgets/Primitive/IconButton.js",
+    "plauna/widgets/Primitive/Kbd.js": "plauna/widgets/Primitive/Kbd.js",
+    "plauna/widgets/Primitive/Modal.js": "plauna/widgets/Primitive/Modal.js",
+    "plauna/widgets/Primitive/Panel.js": "plauna/widgets/Primitive/Panel.js",
+    "plauna/widgets/Primitive/Popover.js": "plauna/widgets/Primitive/Popover.js",
+    "plauna/widgets/Primitive/Progress.js": "plauna/widgets/Primitive/Progress.js",
+    "plauna/widgets/Primitive/RollingNumber.js": "plauna/widgets/Primitive/RollingNumber.js",
+    "plauna/widgets/Primitive/Skeleton.js": "plauna/widgets/Primitive/Skeleton.js",
+    "plauna/widgets/Primitive/Spoiler.js": "plauna/widgets/Primitive/Spoiler.js",
+    "plauna/widgets/Primitive/Text.js": "plauna/widgets/Primitive/Text.js",
+    "plauna/widgets/Primitive/Tooltip.js": "plauna/widgets/Primitive/Tooltip.js",
+    "plauna/widgets/WidgetConfig.js": "plauna/widgets/WidgetConfig.js",
+    "plauna/widgets/WidgetRenderer.js": "plauna/widgets/WidgetRenderer.js",
+    "plauna/widgets/WidgetStyleManager.js": "plauna/widgets/WidgetStyleManager.js",
+    "plauna/widgets/index.js": "plauna/widgets/index.js",
+    "plauna/widgets/shared/appearance.js": "plauna/widgets/shared/appearance.js",
+    "plauna/workspace/Panel.js": "plauna/workspace/Panel.js",
+    "plauna/workspace/PanelLayout.js": "plauna/workspace/PanelLayout.js",
+    "plauna/workspace/Workspace.js": "plauna/workspace/Workspace.js",
+    "plauna/workspace/WorkspaceCompositor.js": "plauna/workspace/WorkspaceCompositor.js",
+    "plauna/workspace/WorkspaceManager.js": "plauna/workspace/WorkspaceManager.js",
+    "plauna/workspace/WorkspaceSwitcher.js": "plauna/workspace/WorkspaceSwitcher.js",
+    "plauna/workspace/index.js": "plauna/workspace/index.js",
+    "tests/plauna-gpu-input.html": "tests/plauna-gpu-input.html",
+    "tests/plauna-gpu-input.js": "tests/plauna-gpu-input.js",
+    "tests/plauna-layout-parity.html": "tests/plauna-layout-parity.html",
+    "tests/plauna-layout-parity.test.js": "tests/plauna-layout-parity.test.js",
+    "tests/plauna_browser_support.py": "tests/plauna_browser_support.py",
+    "tests/storage/performance_run_lock.py": "tests/storage/performance_run_lock.py",
+    "tests/test_plauna_button_browser.py": "tests/test_plauna_button_browser.py",
+    "tests/test_plauna_faces_bars_parity.py": "tests/test_plauna_faces_bars_parity.py",
+    "tests/test_plauna_focus_ring_parity.py": "tests/test_plauna_focus_ring_parity.py",
+    "tests/test_plauna_gpu_input.py": "tests/test_plauna_gpu_input.py",
+    "tests/test_plauna_layout_paint_parity.py": "tests/test_plauna_layout_paint_parity.py",
+    "tests/test_plauna_layout_scrollbars.py": "tests/test_plauna_layout_scrollbars.py",
+    "tests/test_plauna_native_paint_parity.py": "tests/test_plauna_native_paint_parity.py",
+    "tests/test_plauna_native_well.py": "tests/test_plauna_native_well.py",
+    "tests/test_plauna_real_scaling.py": "tests/test_plauna_real_scaling.py",
+    "tests/test_plauna_style_fields_scrollbars.py": "tests/test_plauna_style_fields_scrollbars.py",
+    "tests/test_plauna_surface_sticky.py": "tests/test_plauna_surface_sticky.py",
+    "tests/test_plauna_text_features.py": "tests/test_plauna_text_features.py",
+    "webgpu-os/apps/the-virtual-realm/contracts/CanonicalRealmEncoding.js": "webgpu-os/apps/the-virtual-realm/contracts/CanonicalRealmEncoding.js",
+    "webgpu-os/apps/the-virtual-realm/contracts/RealmContractCapturedOperations.js": "webgpu-os/apps/the-virtual-realm/contracts/RealmContractCapturedOperations.js",
+    "webgpu-os/apps/the-virtual-realm/contracts/RealmContractError.js": "webgpu-os/apps/the-virtual-realm/contracts/RealmContractError.js",
+    "webgpu-os/apps/the-virtual-realm/contracts/RealmContractLimits.js": "webgpu-os/apps/the-virtual-realm/contracts/RealmContractLimits.js",
+    "webgpu-os/apps/the-virtual-realm/contracts/RealmContractValuePreflight.js": "webgpu-os/apps/the-virtual-realm/contracts/RealmContractValuePreflight.js",
+    "webgpu-os/shared/SmartContextAssist.js": "webgpu-os/shared/SmartContextAssist.js"
+  },
+  "release_media": {
+    "plauna-showcase.mp4": {
+      "bytes": 5102254,
+      "sha256": "019230e9ecdaf288e6cf7d76a78faaa6ef00c2574842ef826baf6d04f1264170"
+    },
+    "showcase-controls.png": {
+      "bytes": 126902,
+      "sha256": "e40b573bafbbd7e2d623b32ccde7c208289a580e9e0a5e6f19bbe6637e8510e8"
+    },
+    "showcase-overview.png": {
+      "bytes": 111942,
+      "sha256": "35e96e81a99926c555f79fcaa3e5176ed5799c3c95023b3d5ce95b2a5cdcb126"
+    },
+    "showcase-rendering.png": {
+      "bytes": 127049,
+      "sha256": "4e424660064ccb88ef9c6ffded79f2368dee435bd2a4afe202aa20701758ee8f"
+    },
+    "showcase-theme.png": {
+      "bytes": 133620,
+      "sha256": "8c323b05e6ca6f7c33cb9ced1fd39bd8c46846bb15467f4dcbd1138ef0f20566"
+    }
+  },
+  "runtime_module_count": 274,
+  "source_inputs": {
+    "AUTHORS": {
+      "bytes": 355,
+      "sha256": "5a171090ac27fbfd2de306a84ea54f1ad93940a81c361306d7d70f351688039e"
+    },
+    "LICENSES/LicenseRef-ParticleRealms-Alpha.txt": {
+      "bytes": 1051,
+      "sha256": "8e25a0dc4694986199b297c005c6d37ce79164eb26a81f0bf70e184e2d73e902"
+    },
+    "NOTICE.md": {
+      "bytes": 9143,
+      "sha256": "f15b10eef421b7947b94b2f5171b2a448909d90234b3503c50726c6791c2ae88"
+    },
+    "bundler/__init__.py": {
+      "bytes": 1018,
+      "sha256": "1961bed54064d6956deb23c7a5d10f1da43e961bfa5d39ad65228af05b1cb11f"
+    },
+    "bundler/builder.py": {
+      "bytes": 49858,
+      "sha256": "4004c427fa98cc8a940956c09e4083ffeb9b4f4213d9d3c4a85ef01153b8b921"
+    },
+    "bundler/config.py": {
+      "bytes": 8044,
+      "sha256": "58f1ba28c653da722ad79b544c56326a9612b2fd3f9c33f9ce3950993cb5e11a"
+    },
+    "bundler/cyclic_baseline.json": {
+      "bytes": 2678,
+      "sha256": "7bb8d571d17d2a3e11523bc52ce638111f76c5ca8a1c0a6c5e91b21bac497bc4"
+    },
+    "bundler/emitter.py": {
+      "bytes": 18221,
+      "sha256": "a72a16e965c435533a279619733176afd5280c5d980336bdff0db1943bdb1b4d"
+    },
+    "bundler/graph.py": {
+      "bytes": 25729,
+      "sha256": "3d20c4c95f615408a8b9e5c6f75dc53c7d78cb2c9f52873b9e1a1bcce54f7be6"
+    },
+    "bundler/parser.py": {
+      "bytes": 57768,
+      "sha256": "8828fb47338c85f5994e9a138ea8dd765b9c2a13ba05b62f0cf1165bac680159"
+    },
+    "bundler/plauna.py": {
+      "bytes": 31791,
+      "sha256": "da4a9a6952e93f6396515466a028310819172694bd389a5eec5946c085dec7a9"
+    },
+    "bundler/plauna_assets.py": {
+      "bytes": 2980,
+      "sha256": "43dfb66550a50c8c003e8b7d4edb4775f3ca433596d9b1f9d6b2a1e003679d98"
+    },
+    "bundler/plauna_templates/.gitattributes": {
+      "bytes": 90,
+      "sha256": "c3c14a1db97877c21d24aa274b82947498b1ab101e95d0f33ed4f734e8d68cae"
+    },
+    "bundler/plauna_templates/CHANGELOG.md": {
+      "bytes": 1587,
+      "sha256": "1250eb15cbc5fd018ada75832d3acb434a1568e329f3374c29b3e59f254baf6e"
+    },
+    "bundler/plauna_templates/README.md": {
+      "bytes": 12678,
+      "sha256": "fac862216ce95a52cd5768fceebc69570de873c6860e3fab498431cdedd27e3e"
+    },
+    "bundler/plauna_templates/examples/app.js": {
+      "bytes": 7312,
+      "sha256": "2953d775702a8adc824b7d37407c0b540ae6a8cb6fb6e41cf0cfd573f7c1d4f6"
+    },
+    "bundler/plauna_templates/examples/compiled.html": {
+      "bytes": 647,
+      "sha256": "0522dc0ecace54e7e592abf7b0d18b87311467c471f62623db722147a71a88aa"
+    },
+    "bundler/plauna_templates/examples/index.html": {
+      "bytes": 1870,
+      "sha256": "65f57a8b4e057f3618744d8e9122f52f3651c101d64c412f4b4400b7f26ef6e5"
+    },
+    "bundler/plauna_templates/examples/showcase.html": {
+      "bytes": 1103,
+      "sha256": "9f1f2926456f5b2dfeda0590dac8f755129106a1d13b86a5e17d965095ed65d0"
+    },
+    "bundler/plauna_templates/examples/showcase.js": {
+      "bytes": 2007,
+      "sha256": "9ef8a6ba79494ffbffd1fc204f869919b45738414906f90a22f21a90fe9b4c0b"
+    },
+    "bundler/plauna_templates/examples/source.html": {
+      "bytes": 593,
+      "sha256": "c8559de0aa26ed05e29dfafc48d8f4c70901474213ec978e4c2861f60348efa1"
+    },
+    "bundler/plauna_templates/examples/styles.css": {
+      "bytes": 3875,
+      "sha256": "3e0ec2c0a1308b648f74efc98f4954a6c689aad1b34b7bb8ad76af5e2484208a"
+    },
+    "bundler/release_validation.py": {
+      "bytes": 1963,
+      "sha256": "eaebcb99fa6d26c9bdf73620ac5ed74ea5e75471db8c13f32a8fee826587f4db"
+    },
+    "bundler/scan_import_paths.py": {
+      "bytes": 8442,
+      "sha256": "107e7ab1833b972ef24d2117c6874b545bba7829672818c035d968d78b71c4f0"
+    },
+    "bundler/security_fs.py": {
+      "bytes": 28175,
+      "sha256": "c23d8be6c9406ad96683ae02df478b2d33ab6c09d99cccdf94c6f418406335e8"
+    },
+    "bundler/tests/__init__.py": {
+      "bytes": 178,
+      "sha256": "f0593c3e95b06eabee7b21c65cc6e57d17a60e884cd64e296de100855b2941c2"
+    },
+    "bundler/tests/test_plauna_distribution_browser.py": {
+      "bytes": 22818,
+      "sha256": "7b86d746b3f49645d16cfa5dc7fef1a5ed603e2639dad8b9df3399579ddea211"
+    },
+    "bundler/tests/test_plauna_export.py": {
+      "bytes": 11403,
+      "sha256": "c5b5e13b288ff014a7cc99830d9fc8617acff1fd2e7a991e58d2c856bcf9051e"
+    },
+    "bundler/textscan.py": {
+      "bytes": 2268,
+      "sha256": "d29581c83faaf136f2c3665a2e85a6e10dd3b1a3b2ead8d3c6262f17f6ba5445"
+    },
+    "bundler/transform.py": {
+      "bytes": 7861,
+      "sha256": "6ab4b55f2c778d1d8fc468eb60bcdabbd690ed1f99e95777c74cbf2cfb7bf800"
+    },
+    "engine/collab/CollabIdentity.js": {
+      "bytes": 57568,
+      "sha256": "f60b69d5e638dc31fb70408cafd51fda50be781b11f3800ee05cead904726b0b"
+    },
+    "engine/core/compute/WasmCapabilities.js": {
+      "bytes": 2298,
+      "sha256": "992efd6974cb434f434616fe0e78aed550f1ba8598924c99c15bbeff56cb5b76"
+    },
+    "engine/core/gpu/AsyncComputeScheduler.js": {
+      "bytes": 12917,
+      "sha256": "0e023007357dc2078949a7e93893ca5b792989cac245a12188bfbd8a1b2661b0"
+    },
+    "engine/core/gpu/AsyncGPUWorkScheduler.js": {
+      "bytes": 16107,
+      "sha256": "5ecf8b005035ab5a59e67186cb20492f58dbc13f237b9cd7cd86fa0aca4e54d6"
+    },
+    "engine/core/gpu/BufferPool.js": {
+      "bytes": 5142,
+      "sha256": "52d868eccf19b938c8039a3f3c1608e63b674208466759f1dfb4faf619f4aa40"
+    },
+    "engine/core/gpu/GPUTimestampProfiler.js": {
+      "bytes": 82289,
+      "sha256": "12cd6fd787b510d3ebc64bd9c13195163d3f1c75a687879c606c5bed8828f14b"
+    },
+    "engine/core/gpu/GpuDebug.js": {
+      "bytes": 1831,
+      "sha256": "163e4416f0084cd4aae80ee1f83b0047ef3ee1e0b740e10dd80047834f5e5c95"
+    },
+    "engine/core/gpu/GpuDescriptorIdentity.js": {
+      "bytes": 5863,
+      "sha256": "6a4efed6f78543b482dc73b1c3125878ec34d960c1be8dcc7efa879fc5692bc7"
+    },
+    "engine/core/gpu/GpuDevice.js": {
+      "bytes": 41534,
+      "sha256": "03969d01b3e4cd5a17727e1d08f45b8ee78f62404cc6bfe29923474821588af9"
+    },
+    "engine/core/gpu/GpuDeviceOwnership.js": {
+      "bytes": 3477,
+      "sha256": "bc9407c139c2b45b7569d9a31236d0a272c1164ecacd86befa73e58d62387425"
+    },
+    "engine/core/gpu/GpuFormats.js": {
+      "bytes": 1122,
+      "sha256": "65fd25fdeeb2886d660a2211c2b40a235e1c2a1b9150b04b1f371ecff8267cc0"
+    },
+    "engine/core/gpu/GpuFrameBudgetBroker.js": {
+      "bytes": 21720,
+      "sha256": "1dc0a0e00917893a1327b00dbf43d379588ee626d78c7a7373593194282047ff"
+    },
+    "engine/core/gpu/GpuMapAccelerator.js": {
+      "bytes": 7279,
+      "sha256": "380a69e7e75788e6b856577c674a17705eda521f17f31b2630b632352aec6ae8"
+    },
+    "engine/core/gpu/GpuShaderDiagnostics.js": {
+      "bytes": 38723,
+      "sha256": "24f62e59f402f28b30fd835a819539f41146d2904081ed1a11a1775523ff8cf6"
+    },
+    "engine/core/gpu/PipelineCache.js": {
+      "bytes": 19600,
+      "sha256": "f120f7215be2e7902122ed15239965fdab2be90a997563c5e11f17a44c69df12"
+    },
+    "engine/core/gpu/VGPUBindGroupManager.js": {
+      "bytes": 34659,
+      "sha256": "a6d23df8bf2d4a26732a56829a355d3b91b788d5edc3312f1ea2c0cdfb44336e"
+    },
+    "engine/core/gpu/VGPUBindless.js": {
+      "bytes": 17701,
+      "sha256": "d91fff8db36ddc269ef6318d5829b6609c62450d91ef6708ae6898083c108325"
+    },
+    "engine/core/gpu/VGPUComputeUtils.js": {
+      "bytes": 25259,
+      "sha256": "8cf413d436c77ffbdfe9b088114a1e1a700771169db48ace3ef65a458e5fd327"
+    },
+    "engine/core/gpu/VGPUDebugDraw.js": {
+      "bytes": 42781,
+      "sha256": "c90771e564bc7c4ac12aa2fe8fcb6f91e73d300bb3a3aa836da8e74740c56c81"
+    },
+    "engine/core/gpu/VGPUHiZCulling.js": {
+      "bytes": 42856,
+      "sha256": "5f2dbc78eb8ad4f2dcaf687761773b22b4620a2b56f9047766be8d5f30d4f3f7"
+    },
+    "engine/core/gpu/VGPUIndirectRenderer.js": {
+      "bytes": 43919,
+      "sha256": "b97b3619a27fd490fab20ff89f0f27d8a9617e3dd059816b7dc50a58af652e37"
+    },
+    "engine/core/gpu/VGPUMemoryTracker.js": {
+      "bytes": 76676,
+      "sha256": "c6acfd953a8493dfa3d072c76dea619742d0ccbbe49e55117593c3a932e242d5"
+    },
+    "engine/core/gpu/VGPUMultiQueue.js": {
+      "bytes": 14761,
+      "sha256": "93ac97d40e55e206da7d4ee6cdac8c672fe3ef6472fba1e05990f932e97a392c"
+    },
+    "engine/core/gpu/VGPUQualityScaler.js": {
+      "bytes": 16806,
+      "sha256": "77daee4a204d256ee25d7b99d50a7973be58315ddd1e25e4b44775de1769b948"
+    },
+    "engine/core/gpu/VGPUReadbackQueue.js": {
+      "bytes": 14862,
+      "sha256": "873ed20504ad0ea91920be20b4a29fbc11538518ca005d65d16d256d47259c9f"
+    },
+    "engine/core/gpu/VGPURenderGraph.js": {
+      "bytes": 62591,
+      "sha256": "baefaa10aeab9c52532a52f8693dde9d5c232900a9f646281c7d11181db32748"
+    },
+    "engine/core/gpu/VGPURenderStats.js": {
+      "bytes": 15657,
+      "sha256": "59f3ce91466b1640661759240a70530cb957a9d476e9a3d1c8d54a55cf65c8fe"
+    },
+    "engine/core/gpu/VGPUResourceBarriers.js": {
+      "bytes": 19002,
+      "sha256": "c813f3e965f705e2957b7cd8a323f7cd469c1d1c316e6c7e448e88424f79ec3e"
+    },
+    "engine/core/gpu/VGPUShaderReflection.js": {
+      "bytes": 17117,
+      "sha256": "ef8a1d5393c2c53eb3a1fd184712797f531c9fdaed094e9f4dd9c49609498f60"
+    },
+    "engine/core/gpu/VGPUStreamingManager.js": {
+      "bytes": 63455,
+      "sha256": "9f8b1b0145627a96967b756aa543e3118373497ad128bc336b90cde5c43f55db"
+    },
+    "engine/core/gpu/VGPUTextureAtlas.js": {
+      "bytes": 37494,
+      "sha256": "64c270923d70874ac5b7d946f513bda2c499ce538cf765bece4edf84f00d2e82"
+    },
+    "engine/core/gpu/VGPUTimelineSemaphores.js": {
+      "bytes": 29395,
+      "sha256": "6ab8db9a5e519708e5a7c717fd185ecdc53623d47de2b7f89bb56696877949df"
+    },
+    "engine/core/gpu/VirtualGPU.js": {
+      "bytes": 542159,
+      "sha256": "10a16d9f7c83e58ec1bf2c4e48421348cf2867415933fee0458597f966d389f2"
+    },
+    "engine/core/gpu/WGSLPreprocessor.js": {
+      "bytes": 13201,
+      "sha256": "cac8cd068a90a7dc324fb02149811ad84b798405224ab5805cc0b7264972ec44"
+    },
+    "engine/core/math/BlendMath.js": {
+      "bytes": 5985,
+      "sha256": "11427b5dae84171d713a8312a3ea4d9ff43ad17d54f488fee99c09a0512f4de0"
+    },
+    "engine/core/math/BufferMath.js": {
+      "bytes": 13213,
+      "sha256": "2e1f83b62de63783544ca42ddd3786ebbc731d646436cb3880a37e8275fa3fce"
+    },
+    "engine/core/math/ChecksumMath.js": {
+      "bytes": 24399,
+      "sha256": "85c19c7dc6dae089cc1ebae45244f5ae9fade2b8171445f9999bae66264927ba"
+    },
+    "engine/core/math/FormatMath.js": {
+      "bytes": 48101,
+      "sha256": "10e004f8205995967fb4bc2336bfb8e499e0b7b1b30f7c4495fbe722199e87cd"
+    },
+    "engine/core/math/FrameMath.js": {
+      "bytes": 13914,
+      "sha256": "b13c853f61ca50f618225929d6f4649b611eae58c41e4e7eb1e68e6a2dabc923"
+    },
+    "engine/core/math/ImageMath.js": {
+      "bytes": 19486,
+      "sha256": "207282ec98e1bb10425bba85c716479118e92e7304a2c0fb7222fee0bfe9acaf"
+    },
+    "engine/core/math/MathColor.js": {
+      "bytes": 143875,
+      "sha256": "472d8b55fea798959c205581c820a08ca11f1b4f8c18b677923dcb91dc52fb3f"
+    },
+    "engine/core/math/MathConstants.js": {
+      "bytes": 1648,
+      "sha256": "504ec61e16abeaff5a8e32ee8837217456f2a5de742fac4149c35b8c7d9e2324"
+    },
+    "engine/core/math/MathEasing.js": {
+      "bytes": 21886,
+      "sha256": "871b0327f5ea89c1dafffa074561e5c652730badd57e195bec47cae24ffe5fce"
+    },
+    "engine/core/math/MathEntropy.js": {
+      "bytes": 40997,
+      "sha256": "1c47669ed7fcc0cafff396623505d8f9d271b97923e9de2833fe5219bd99c597"
+    },
+    "engine/core/math/MathQuality.js": {
+      "bytes": 20053,
+      "sha256": "e42d489bbc963759ffe50078c27420ab9b5688dbdf807b1d05475d2827a4abc7"
+    },
+    "engine/core/math/MathRandom.js": {
+      "bytes": 17636,
+      "sha256": "b1e574ab4e4fcfffcf9681fa5d8b5e8a02f2e4bf8c863bef45c322d1c97dd008"
+    },
+    "engine/core/math/MathScalar.js": {
+      "bytes": 8796,
+      "sha256": "c13308f10d48eb87f808fbe1d4984a32c6905cf0be85b36fc0d126f25b766914"
+    },
+    "engine/core/math/MathStatistics.js": {
+      "bytes": 6948,
+      "sha256": "347dd799b58b1271c3b1624b6ce96bcd4200194d251e7485bf199b13b15245a7"
+    },
+    "engine/core/math/MathValidation.js": {
+      "bytes": 27445,
+      "sha256": "eee2e281591f93abbb1adeb566f03fcdf46e3fc194b770af070d9873fb380b88"
+    },
+    "engine/core/math/MathVec2.js": {
+      "bytes": 14697,
+      "sha256": "2f8c49db02cc5680f8b69037c7198650269280a66fac0dad4542a413030c364d"
+    },
+    "engine/core/math/RectanglePacking.js": {
+      "bytes": 1255,
+      "sha256": "651b59a20558f6a1425894c27ecc3837beab89c7c276d15723e439c4961f4c31"
+    },
+    "engine/core/math/TextureMath.js": {
+      "bytes": 47257,
+      "sha256": "20dc9b3406e54f1e5fc6989e43c8e4b323a47b6e13d6f26951d4a69b69c2b49b"
+    },
+    "engine/core/math/UILayoutMath.js": {
+      "bytes": 54935,
+      "sha256": "f1030128260446b3231aec2842263de2f39c4d416662281e2829d00b7cf5a50a"
+    },
+    "engine/core/math/UnitMath.js": {
+      "bytes": 9942,
+      "sha256": "62ed3ffe556dd5b732b8118a48f0395f9d4c9c3cacb449b67eea0e22019f0043"
+    },
+    "engine/core/memory/GPUMemoryManager.js": {
+      "bytes": 36407,
+      "sha256": "aeefa85c814cf9d0453c14de9cbaa4407a05eb267893399c210e5ecdfd2c5503"
+    },
+    "engine/ecs/EntitySchema.js": {
+      "bytes": 54243,
+      "sha256": "9129a6b1f99ee12aef17018640b3f8b5bb099149d6f15a2316f25c193f44227b"
+    },
+    "engine/ecs/components/ComponentRegistry.js": {
+      "bytes": 3705,
+      "sha256": "fa9708b00f70d195a47357e6c9bad851fa60b8969b1c7fb3c65c4517fd0ceedc"
+    },
+    "engine/ecs/storage/ArchetypeStorage.js": {
+      "bytes": 10135,
+      "sha256": "e6cd7171fc5e2cbed272f7e1188dc4cd27f4fc7fade6056db2422790fe901158"
+    },
+    "engine/ecs/world/World.js": {
+      "bytes": 17934,
+      "sha256": "d486dbde05202f35a9a65cc8e80af018188873731a32b717f1602f1ba160e2d2"
+    },
+    "engine/network/crypto/Hpke.js": {
+      "bytes": 9196,
+      "sha256": "0a4ca45536f03e3da8de2ad6bc8e6189e72e266c5a850797bf3aa35511a8df2f"
+    },
+    "engine/network/crypto/Trust.js": {
+      "bytes": 5256,
+      "sha256": "9353d1992431e41107807fc1e6d9ac7e525feeefaf8b4fd85cb80c42005185e6"
+    },
+    "engine/network/protocol.js": {
+      "bytes": 5717,
+      "sha256": "8396f8bbd18e3b7fda4538eb7cf10aa730321e1841b43d5fce99cd02ec4c76f5"
+    },
+    "engine/network/realm/addressing/RealmIds.js": {
+      "bytes": 4612,
+      "sha256": "9cd53b8d5e17aba708075d74c5e63c9902f4e24770ac9eca28d7c8ae89507c76"
+    },
+    "engine/network/realm/authority/AuthorityLease.js": {
+      "bytes": 10674,
+      "sha256": "44c31cf512d713e4fd0e5326c4469ed4fd4bcc69bcfd207c2426473b90772e69"
+    },
+    "engine/network/stateChannels/BroadcastStateChannelTransport.js": {
+      "bytes": 2520,
+      "sha256": "d8fd0b8632534365cfa988ae8992fee09fe93a0f3b1588e3fd337e0d4154a7a0"
+    },
+    "engine/network/stateChannels/InProcessStateChannelTransport.js": {
+      "bytes": 1049,
+      "sha256": "324393b3d8cc1fec1bcd92900f5342e9a24be07b5fdd358cd284ce2eeb6517ae"
+    },
+    "engine/network/stateChannels/MeshStateChannelTransport.js": {
+      "bytes": 9821,
+      "sha256": "7be30f8d1f57a0cb9b2f3a18754d2b6c57b8eb5d37dc6cc045f93b1a3a84b743"
+    },
+    "engine/network/stateChannels/SseStateChannelTransport.js": {
+      "bytes": 35486,
+      "sha256": "c6998f9a7ad091bc0696fe46f25cb1e6b01b8d1c9a9b5855bdd29478207d1986"
+    },
+    "engine/network/stateChannels/StateChannelClient.js": {
+      "bytes": 6977,
+      "sha256": "dc2a139249bd4447465bbcb2c1e212dadbbe2a94b4596034a2c4d5af01030f03"
+    },
+    "engine/network/stateChannels/StateChannelContract.js": {
+      "bytes": 17177,
+      "sha256": "cb26f8181eb249b9990a0f2aa6c757d530a34dee396f0a16526ba6cf32618685"
+    },
+    "engine/network/stateChannels/StateChannelFederationProof.js": {
+      "bytes": 5205,
+      "sha256": "696879ffeee456ea5e50127957d6448c4cf04b576dd176837f1f69fa5a9177a3"
+    },
+    "engine/network/stateChannels/StateChannelTransportResolver.js": {
+      "bytes": 4033,
+      "sha256": "6071fce8f80645390187190bc119ed6f96de207af09bc841eecd275591d466b7"
+    },
+    "engine/state/authority/Identity.js": {
+      "bytes": 5076,
+      "sha256": "7937253b64d7dfee6691613856bf8cab52332566c9a5f095d0335c3fb281ae5a"
+    },
+    "engine/state/util/canonical.js": {
+      "bytes": 9826,
+      "sha256": "df3878c87a10def79ed72af7f9a536059f4fe6da638cc29f3205284d0913136e"
+    },
+    "engine/tools/console/HtmlConsole.js": {
+      "bytes": 20479,
+      "sha256": "4ca0f7bf3d740f7ff4ead8de24c3ee4faa39ac33d9d877bb5b42ce659e8956e5"
+    },
+    "engine/version.js": {
+      "bytes": 2579,
+      "sha256": "b597757d55b073e504d0a4dc6938503d79473909bfe886477899042db4ed4c6a"
+    },
+    "plauna/ARCHITECTURE.md": {
+      "bytes": 33569,
+      "sha256": "d4db950c8a8c296afbdc491f4847eef0eb2ba13106cbab397e1e51abbbe3fc97"
+    },
+    "plauna/LICENSE": {
+      "bytes": 1067,
+      "sha256": "6b52fc09d095568d611ec38256a2bb02575ff92dfb8dbfef13ef830381ba3863"
+    },
+    "plauna/README.md": {
+      "bytes": 18503,
+      "sha256": "60db23c2ae89b91ea4609edd4df3c5e906ae7cd276d8fd95498e5c3cc2b62066"
+    },
+    "plauna/SHOWCASE_INTEGRATION.md": {
+      "bytes": 5764,
+      "sha256": "0501b3425290a5965d767dbffb704be5d1f2e160b6877c7a35916d7a79e49585"
+    },
+    "plauna/boot.js": {
+      "bytes": 6436,
+      "sha256": "0adfc3db3fac1ce83a15c6d20ea7050293c2adb8d4e49507dd289f482a50d36a"
+    },
+    "plauna/console/PlaunaConsole.js": {
+      "bytes": 18228,
+      "sha256": "e9b3b037bc257c2dbe31d8ec1618911d27f2f9d6f815944dde2524f62d2bc6c7"
+    },
+    "plauna/core/BindingEngine.js": {
+      "bytes": 17114,
+      "sha256": "734de6146a22e86bef0de1c6e4ef58c9edbe9aad9d64b5996e5753c7b8be48bf"
+    },
+    "plauna/core/DOMRenderer.js": {
+      "bytes": 36043,
+      "sha256": "c4c5a93a5a764aaf1e40bbc38086f7d54ebfb93c9147413aa141bf7bc67d3d50"
+    },
+    "plauna/core/ModuleTester.js": {
+      "bytes": 17849,
+      "sha256": "af4eb2f88fae5de4ffeed46d1f87cee9d56347a5a80aede5bd42c2c12595e0c0"
+    },
+    "plauna/core/StateStore.js": {
+      "bytes": 13749,
+      "sha256": "e2f28d8b9a1d30e9b81b610f21faffa7d619e50b68797d6466ca18bc8c403279"
+    },
+    "plauna/core/UINode.js": {
+      "bytes": 24874,
+      "sha256": "9a03bb85aec461740f81f8fb12623467f2ad809f3b0232f17f2ae8b2203c97c7"
+    },
+    "plauna/core/VisualTree.js": {
+      "bytes": 19780,
+      "sha256": "169bba33b3093a04f5d846c0416ca51791f64cf3ebf91a7851143a82e10c73c2"
+    },
+    "plauna/core/app.js": {
+      "bytes": 48236,
+      "sha256": "b38d15b87f4a5ea8f22ccf1c83b66d9ee830b90777019b97784413c214700955"
+    },
+    "plauna/core/events.js": {
+      "bytes": 2637,
+      "sha256": "2532c1c2fbc4204471fab06bc74fbb16a14db519308c221617e4ab19e647bea4"
+    },
+    "plauna/core/registry.js": {
+      "bytes": 4179,
+      "sha256": "d7678d0c6f28a601fb8601497e56d019cd1a72146f01ffeae4506b50054c3058"
+    },
+    "plauna/ecs/components.js": {
+      "bytes": 7379,
+      "sha256": "643eaddcd03f656c967079b2535d584ae8b4ea702d7cbd250382d1e547c12a41"
+    },
+    "plauna/editor/HotReload.js": {
+      "bytes": 30485,
+      "sha256": "d89580a5185b8d0887486f1d8817a924fa63677bc6083cd5ad3ee56d41c7b38f"
+    },
+    "plauna/index.js": {
+      "bytes": 13770,
+      "sha256": "bad9dbc1afeca420f25cfbf3a694d72066dd6f2621ca8632f4ccf8fa165364dc"
+    },
+    "plauna/lab/showcase-app.js": {
+      "bytes": 2238,
+      "sha256": "60354c6b05fd8f5d1b97965f96f9457402990798a5cb5d4b3903be251b5008de"
+    },
+    "plauna/lab/workbench-lab.js": {
+      "bytes": 40426,
+      "sha256": "87f8c37bf22e215baf3c4adf988a3e10c1fadf366d443ebcb032ee8961856c2b"
+    },
+    "plauna/lab/workbench/backdrop.js": {
+      "bytes": 20266,
+      "sha256": "9d3c711461167ff4327a330db6548222c070b8cad932d048a6189244e9c0f5d3"
+    },
+    "plauna/lab/workbench/demos-data.js": {
+      "bytes": 23011,
+      "sha256": "71f2905635e0b7b953b9a1cb34bb662be8810d5fdded843653e2660c81757c44"
+    },
+    "plauna/lab/workbench/demos-feedback.js": {
+      "bytes": 40944,
+      "sha256": "38b507a92a17705a8b99578dfa87e5e761c9109309b1ed85299c7985e2983c9e"
+    },
+    "plauna/lab/workbench/demos-layout.js": {
+      "bytes": 124002,
+      "sha256": "8389bee70798e1a17586065711bbe03ca35cf96489f9eea84a874e69d7de76f1"
+    },
+    "plauna/lab/workbench/demos-navigation.js": {
+      "bytes": 71237,
+      "sha256": "4bf75a45a052152d5d4e42d3ea8410a51db230e2627efc50e862d852c122465a"
+    },
+    "plauna/lab/workbench/demos-primitive.js": {
+      "bytes": 41388,
+      "sha256": "1cd33029b1a3c17881d6b3de5a83372ea98efb9267d61afe9dc241e897e3a42f"
+    },
+    "plauna/lab/workbench/gallery.js": {
+      "bytes": 62914,
+      "sha256": "2f98a2c88868aba3e9b46f6bee347832ba7ec08d7a6e3cdd766166d6e81bb54d"
+    },
+    "plauna/lab/workbench/renderer.js": {
+      "bytes": 5996,
+      "sha256": "34cd3cb9d488074c239334e049082307254aa8804e4cfec6d2ccaff685b392e7"
+    },
+    "plauna/lab/workbench/shell.js": {
+      "bytes": 10167,
+      "sha256": "2b96c4f02cc6bdf039dff49b4cbee2f1158613c253116c151403a671ec25951b"
+    },
+    "plauna/lab/workbench/support.js": {
+      "bytes": 9255,
+      "sha256": "e9abc79a5a5a65a0fd88047d5e6d648f76d584f3ca2d1daf9ecb91be88c2d62e"
+    },
+    "plauna/layout/LayoutSizing.js": {
+      "bytes": 1493,
+      "sha256": "ded264e2efe4dfac45825417adf3417963269a1b03505155e7bb2645bf8901b0"
+    },
+    "plauna/motion/MPAFallback.js": {
+      "bytes": 2475,
+      "sha256": "89567f3910485ba303706c87d23621058bde0773f37e7794cc6286c573422636"
+    },
+    "plauna/motion/PageTransition.js": {
+      "bytes": 15656,
+      "sha256": "3dbf48c4b6e2e565f4d9af45d3b646bb5a8086454c3cb562da98ef7475d1891b"
+    },
+    "plauna/motion/PageTransitionContracts.js": {
+      "bytes": 3076,
+      "sha256": "abd2aafd9f4676fef063340750ba30f34d3cc9a3b8e53c6b68ec00d93b441874"
+    },
+    "plauna/motion/PageTransitionManager.js": {
+      "bytes": 10999,
+      "sha256": "626f0e143199d183029d9ebbc4e04b4b18756db32802a0d86eb36a61da31f184"
+    },
+    "plauna/motion/PageTransitionPresets.js": {
+      "bytes": 16024,
+      "sha256": "fd49bb36a8c2637fa193db64a6d13485451810ebb4da98a2a7b81910685d8667"
+    },
+    "plauna/motion/TransitionEngine.js": {
+      "bytes": 19932,
+      "sha256": "ae259096912ffc8fccd530d94f96898052118d80a2593dde57b133cf644e3969"
+    },
+    "plauna/notifications/NotificationSystem.js": {
+      "bytes": 15137,
+      "sha256": "417d2922a15a1bb7fca3a3490de42b092df9a866e8fc4b24791027209931e9dd"
+    },
+    "plauna/notifications/README.md": {
+      "bytes": 11277,
+      "sha256": "61522b3ed7c78d45a3e8922c93f27abded2ffbe23ea5d92bb06ce63362457de4"
+    },
+    "plauna/particle/ParticleController.js": {
+      "bytes": 5027,
+      "sha256": "fe5e3eed999dae3f4fe9bb62084494930f67f9b347120b38265b4aaf700b1857"
+    },
+    "plauna/particle/bridge.js": {
+      "bytes": 25700,
+      "sha256": "e8f390466b172b474271ff6cef3262f77f8acddd17aa86774fc51e6c8296d87f"
+    },
+    "plauna/render/AnimationController.js": {
+      "bytes": 24413,
+      "sha256": "44f9510595471a8b4a1c289dc08e2767e7d8abb5f15b69c9f623355549d2fa81"
+    },
+    "plauna/render/GlassUnderlay.js": {
+      "bytes": 9819,
+      "sha256": "bae8eeb91f5d3b6e9eb1a3fcbf13a6db1a3afabbf60d5e40fbd78073c1291837"
+    },
+    "plauna/render/LayerAnimations.js": {
+      "bytes": 29381,
+      "sha256": "608ff35388a3aac17b0e6d3aee946579374b6b137c5e9ecb0a8f1197015906ac"
+    },
+    "plauna/render/NativeWell.js": {
+      "bytes": 12274,
+      "sha256": "7a8b78078c20181fd5bdede9288a5b3baba68867e555d7022d2fc0302a8168d0"
+    },
+    "plauna/render/RenderModes.js": {
+      "bytes": 4396,
+      "sha256": "691a6e86500f5289279b44df387b99ba65e1935e765ba67526584c704a924345"
+    },
+    "plauna/render/RenderSurface.js": {
+      "bytes": 96876,
+      "sha256": "1005fea51cc7f26126403eb124dd052865cb71ad0fd2911a678296b52340dcfe"
+    },
+    "plauna/render/css/CssValues.js": {
+      "bytes": 42561,
+      "sha256": "3f33af19272e938ce7fd121932f73227500a77d3f9f3f16c6327218b46f520b4"
+    },
+    "plauna/render/css/StyleResolver.js": {
+      "bytes": 122794,
+      "sha256": "a1f530bebb12dc065d43cb3d603379a507f82089a3fdee9390afcccb34f0355c"
+    },
+    "plauna/render/css/StyleRules.js": {
+      "bytes": 52222,
+      "sha256": "17df79267dd48a8993f9d2ea5697eaeedb704024e126c95099510c78df4ea8ff"
+    },
+    "plauna/render/css/UserAgentStyles.js": {
+      "bytes": 26272,
+      "sha256": "1d34b5d9ebf8175d0e9dccdffbf552fbd56fea7b2e9dbdce6a189d6d2ab4f72c"
+    },
+    "plauna/render/gpu/BlurPass.js": {
+      "bytes": 8114,
+      "sha256": "2d47070fbda021c540b412278fed44eadf2feea1f8eb8513076e14e1c7e82cb0"
+    },
+    "plauna/render/gpu/DisplayList.js": {
+      "bytes": 239867,
+      "sha256": "51e6a115a541dba01280df909377276d70f540ae244e9c9db1d13606e2e7eda1"
+    },
+    "plauna/render/gpu/GpuPainter.js": {
+      "bytes": 38463,
+      "sha256": "bdcb23bd9ee3d2c2e5bb167b49dfd9fe204a9c19d8743f2df7949804c45471b2"
+    },
+    "plauna/render/gpu/PaintWorker.js": {
+      "bytes": 17424,
+      "sha256": "03dd831d8f3f3bb5951dc933865923a2c683a0b0b9f3413bd32f2be2024e065f"
+    },
+    "plauna/render/gpu/PaintWorkerHost.js": {
+      "bytes": 17966,
+      "sha256": "cb1558a52b7b3ecb5cadfc53013931bfc938b94c1b0945c11af496f40582e649"
+    },
+    "plauna/render/gpu/Rasterizer.js": {
+      "bytes": 41462,
+      "sha256": "73bb956a030fccec5d1a461bb4465cc51399e4869bf6c0c4f9ffabc7510d196d"
+    },
+    "plauna/render/gpu/SurfaceCompositor.js": {
+      "bytes": 9192,
+      "sha256": "06b0f89bc19ee143eb8d73f88b589444e5428fecfb43645f9c2c1ab4b6f1f73a"
+    },
+    "plauna/render/gpu/shaders.js": {
+      "bytes": 33203,
+      "sha256": "60792726616a30cd6d2a00fb8841d9b6f63ad700ec5ecfc0ad3632da2ea3923e"
+    },
+    "plauna/render/index.js": {
+      "bytes": 1013,
+      "sha256": "f0214f713c551c072d5a9ebb17216aa108f7bebdbaedd80c39bcdaaddca60f6b"
+    },
+    "plauna/render/layout/FlexLayout.js": {
+      "bytes": 22057,
+      "sha256": "e07bcf2781402c15b844225001949c0a4be1d8079c77717ca32190174a83235a"
+    },
+    "plauna/render/layout/GridLayout.js": {
+      "bytes": 28883,
+      "sha256": "b3da2652f90e9160b2509cc628f17a5ad08853b51400d9aa22c18c4601251cea"
+    },
+    "plauna/render/layout/InlineLayout.js": {
+      "bytes": 42795,
+      "sha256": "e5e74f1ab0b39b719f339d28c50cb9c97948f19f8e0e08e31d5a6cb1bf2f5d3f"
+    },
+    "plauna/render/layout/LayoutEngine.js": {
+      "bytes": 110195,
+      "sha256": "21588aa6446d76f90a0f90e5e8ada595390342e502040cac59362f410ee53847"
+    },
+    "plauna/render/layout/LayoutTree.js": {
+      "bytes": 20995,
+      "sha256": "4797abfdc09113f925881ec9d7445846b5c64ecd16a8feaf1a8a858c3959f389"
+    },
+    "plauna/render/layout/LayoutUnits.js": {
+      "bytes": 5461,
+      "sha256": "1ac5bdebbb010bfe6a2d01f700f90cbb4822fe0d53638ee9877c87a2848d8448"
+    },
+    "plauna/render/layout/TableLayout.js": {
+      "bytes": 17323,
+      "sha256": "da076ece2da4ad518771e163192194f5b53f84776cb6532bdf6a127ffa9faa8a"
+    },
+    "plauna/render/text/TextShaper.js": {
+      "bytes": 39812,
+      "sha256": "b899ed95581544a96317bafcef8bce5bd932fee0d98331c74fc96975d10ba0ef"
+    },
+    "plauna/style/AdaptiveThemeFactory.js": {
+      "bytes": 31363,
+      "sha256": "a3d74ae4591dc5e7f595230c406f4b619afd00e1394248cab948a29ddcd451ac"
+    },
+    "plauna/style/CSSGenerator.js": {
+      "bytes": 8851,
+      "sha256": "f9bc10ccb2bb5990b9629bc6c6bfa73bffadea57e94093edb16af8aa1d164e88"
+    },
+    "plauna/style/ComputedStyle.js": {
+      "bytes": 19864,
+      "sha256": "bc48ce1cb2ae2a03f1c6c630ff1718c12ffdcf5fb0fd2ff4df1941bbe9395bdd"
+    },
+    "plauna/style/DesignTokenContracts.js": {
+      "bytes": 3161,
+      "sha256": "c284628a991e0eb7ed81b4b0232190bfbfa93a8e4d96579256a83c4efaae752a"
+    },
+    "plauna/style/DesignTokens.js": {
+      "bytes": 27333,
+      "sha256": "053014d4242c093960e2c908cb7f78b77b93416da0c2a215125915e7c2a44840"
+    },
+    "plauna/style/LayerManager.js": {
+      "bytes": 3111,
+      "sha256": "f35fd30553b858c8112b24f3be3747ad00b8e0a3a6701338ecb32f00439dea65"
+    },
+    "plauna/style/StyleSizing.js": {
+      "bytes": 1000,
+      "sha256": "870586c5389ded98af5b27c97fb7c7387017a64dad39817d85c0e35b75b60e05"
+    },
+    "plauna/style/ThemeController.js": {
+      "bytes": 5167,
+      "sha256": "6b94c84488e503d306972aa0903dd3e1daec6333596edba20744a3e9fa320a0b"
+    },
+    "plauna/style/ThemeManager.js": {
+      "bytes": 20015,
+      "sha256": "b527f132c99a30c165b7d5770d7e60210c87e7743070350d95d47444c620d17c"
+    },
+    "plauna/style/index.js": {
+      "bytes": 938,
+      "sha256": "9279cb7d52928c232b55416eff632d0263ad2ee786bb1d897feea840d650e531"
+    },
+    "plauna/styles/plauna.css": {
+      "bytes": 43379,
+      "sha256": "e7eaf6df9dff7a3f7dfc532683fd80b5d5ab4eff5580e209be2772e92cf2be05"
+    },
+    "plauna/surface/surface-manager.js": {
+      "bytes": 27594,
+      "sha256": "b199032cce7a3e635fd4202e6618131f44e3e589fe3cc7e90d8fdd4b96905389"
+    },
+    "plauna/text/pretext-service.js": {
+      "bytes": 13785,
+      "sha256": "5bcb97f86d4130fe8297f8f5c52013a17568e4d47d5973d3fd5abe9d790af31f"
+    },
+    "plauna/themes/README.md": {
+      "bytes": 3438,
+      "sha256": "5948e146f84aeb521bada209b1cdb958791362be13deb2b8a8804ee8c9d45533"
+    },
+    "plauna/themes/ThemeContracts.js": {
+      "bytes": 2930,
+      "sha256": "94317232ef6d5ba83fccef9eafaf2cc4b20561df08a96eacedf6a3132fcfb7c8"
+    },
+    "plauna/themes/ThemeLoader.js": {
+      "bytes": 13448,
+      "sha256": "140a9fe88e51e20f978c9c16eb705d3d4bac80e6cb593b41693e544ba1509cb1"
+    },
+    "plauna/themes/ThemePreference.js": {
+      "bytes": 3080,
+      "sha256": "7e14a8a1f6eea17f3cb420ac1d5d3bbae4d7632b25a85f2ea421fcfc09ea22d8"
+    },
+    "plauna/themes/_base/theme.json": {
+      "bytes": 3328,
+      "sha256": "2b05907af8bd3bd214047f2e49d2020746275d6d8ce4e9cfd16e8c085a79f34c"
+    },
+    "plauna/themes/custom/theme.json": {
+      "bytes": 1496,
+      "sha256": "33c2a2874916b4388d6f05e1fd12b075648d77b7ac45eecc8226b21a27972e9a"
+    },
+    "plauna/themes/dark/theme.json": {
+      "bytes": 844,
+      "sha256": "8d933ea5f8419b46d088310691c98968fc8ed8781ca0357344d51f265ac7323f"
+    },
+    "plauna/themes/high-contrast/theme.json": {
+      "bytes": 1214,
+      "sha256": "367ac2e889b30e0e66ed144b00fe801b4e02ab5bef89495e0ff519816c9f33a3"
+    },
+    "plauna/themes/index.json": {
+      "bytes": 184,
+      "sha256": "f2cc9fdc1ff6d114cd9231eef262291cf43bfa693c61ec88fdda48624c8dbb74"
+    },
+    "plauna/themes/light/theme.json": {
+      "bytes": 975,
+      "sha256": "db6fdbdb14a3dd5f4f43a34569a59829f8e0c5bf00cae464fe09f63b6d2ce11f"
+    },
+    "plauna/ui/SmartContextMenu.js": {
+      "bytes": 66421,
+      "sha256": "5e2fdc484717fd71f48efd453d9f91de8e9512ef68772ca861be4e20cd2f4407"
+    },
+    "plauna/ui/ToastManager.js": {
+      "bytes": 19402,
+      "sha256": "8c740f38333917cc3ae2da38f2c3c00fbc7a1de76b68dd1b33cf87cab897778d"
+    },
+    "plauna/ui/WidgetGallery.js": {
+      "bytes": 42510,
+      "sha256": "99fc95119bc6371ff9ce29f4d880833b6861e1df65b89d70f6022dbde19547cf"
+    },
+    "plauna/ui/gallery/controls.js": {
+      "bytes": 13880,
+      "sha256": "a0974b065456642cbd447ce47fb1cdb2fd0cd9543328195f7f5fbff7b5c57a9b"
+    },
+    "plauna/ui/gallery/schemas.js": {
+      "bytes": 25421,
+      "sha256": "81b0be2e935c74c1d4f00b21ba81f52d097d96c77ae60280fcc40667554471bf"
+    },
+    "plauna/ui/gallery/snippet.js": {
+      "bytes": 3296,
+      "sha256": "2e35aa7d93c20b43a6a4fbbf5326b10c7b5ce1b0c1b3e0ccfa5917f37f646e64"
+    },
+    "plauna/ui/gallery/styles.js": {
+      "bytes": 16551,
+      "sha256": "f94b988993d80846b52fd632ab07950a6aa93a570d09046cbf82a2641fcf697f"
+    },
+    "plauna/widgets/DataViews/BarChart.js": {
+      "bytes": 10181,
+      "sha256": "675dcd204cfb689165ff1591c340a85c70419a7ff48de829144d7254c9e79828"
+    },
+    "plauna/widgets/DataViews/Calendar.js": {
+      "bytes": 14839,
+      "sha256": "d6f3197a397ba94733b44e5a140e4e14b24d13dc0768dd2bb9234a51c92742ae"
+    },
+    "plauna/widgets/DataViews/Card.js": {
+      "bytes": 21403,
+      "sha256": "45c36abe92dcfa1f1f92ee3a64b83ec8b994f0a5c396882267d54d81a08c58b3"
+    },
+    "plauna/widgets/DataViews/Carousel.js": {
+      "bytes": 10360,
+      "sha256": "eb8f02e4622bc2f223775c8fbb7d3c298d6e391e72b4b64ebc0a70a67f12ed0b"
+    },
+    "plauna/widgets/DataViews/ChatThread.js": {
+      "bytes": 11904,
+      "sha256": "92f34de568dedb4640e32faa7d7fa260966d579af1b9f1ff87701b167ad9f491"
+    },
+    "plauna/widgets/DataViews/DonutChart.js": {
+      "bytes": 8991,
+      "sha256": "fdaae099e6332933d1d426e8f46ac4e955d9cc7eb06095aa0d7adcad50d4e33d"
+    },
+    "plauna/widgets/DataViews/Image.js": {
+      "bytes": 6683,
+      "sha256": "10a7b1412d48685a97fa567146cc2de73dd4ad20a062fe259d4fcd9f3dee1561"
+    },
+    "plauna/widgets/DataViews/KeyValue.js": {
+      "bytes": 8684,
+      "sha256": "ff4748c0a327f6727787bec3c45c8e675186199912016c0a6bbdcdf8ef93c0e2"
+    },
+    "plauna/widgets/DataViews/List.js": {
+      "bytes": 20817,
+      "sha256": "237caa47a7c2d5abcf167e487a3d4cbd047e194204a361e43bc4b0cffc6a9aec"
+    },
+    "plauna/widgets/DataViews/ListView.js": {
+      "bytes": 23380,
+      "sha256": "bfef4eade1655f2d47a9076efd45c6508694f6a52084630e7444cdcc4b96b037"
+    },
+    "plauna/widgets/DataViews/Sparkline.js": {
+      "bytes": 7130,
+      "sha256": "282ff9c9771fd2e82693ff49211af7b16f49f600a544c55a13fc9cc7651eb829"
+    },
+    "plauna/widgets/DataViews/Stat.js": {
+      "bytes": 7601,
+      "sha256": "8d125bc4a1599e1a57378b66bf8df1515a57d5cfa896d5da038a7ca2c8bce619"
+    },
+    "plauna/widgets/DataViews/Table.js": {
+      "bytes": 33545,
+      "sha256": "dce194e5995e1b0b7e25db65ef6214d0cdfa6094f23e40b3063bfa9449873a2b"
+    },
+    "plauna/widgets/DataViews/Timeline.js": {
+      "bytes": 7740,
+      "sha256": "254e30b31910390d1b0ef19cfed00be6664d801c7063a7452652e20ed65dff79"
+    },
+    "plauna/widgets/DataViews/Tree.js": {
+      "bytes": 21758,
+      "sha256": "fb4eeacecd70bf01686e1ece92d699edf8c8bf5d08848c8d043e349c2a438bb8"
+    },
+    "plauna/widgets/Feedback/Alert.js": {
+      "bytes": 19918,
+      "sha256": "d7f8b1661b3cc24c6a005b4885ff08cce3765c8b938d6daea1efbc512e8cc72a"
+    },
+    "plauna/widgets/Feedback/Banner.js": {
+      "bytes": 8989,
+      "sha256": "3aa2a055bd8b11871ef3ed655cf911369ebfc82cfa7945ce6e5e44d7a010b54f"
+    },
+    "plauna/widgets/Feedback/ConfirmDialog.js": {
+      "bytes": 11182,
+      "sha256": "b97f83b10d53f4f8878fd20d45dde02c762a4e513c622071bcb33cc552527a3b"
+    },
+    "plauna/widgets/Feedback/EmptyState.js": {
+      "bytes": 21583,
+      "sha256": "edaebda1a5a3c89c4d88abc3cd55296626ab883814559d4827792e1e333fe20e"
+    },
+    "plauna/widgets/Feedback/Meter.js": {
+      "bytes": 10036,
+      "sha256": "5cc512232789d33cec17efa8729d47a2b9a30dc7d1bd788480eda8c3081a7d4b"
+    },
+    "plauna/widgets/Feedback/Result.js": {
+      "bytes": 6958,
+      "sha256": "ef70378433f8bbd1990d37d8667432ae91563743f9e52edb42e1cf190972e07b"
+    },
+    "plauna/widgets/Feedback/Spinner.js": {
+      "bytes": 18423,
+      "sha256": "f1cb079ca94b736570ca13121582e47c242a6ea445f8d84223c68deda2c8f3db"
+    },
+    "plauna/widgets/Feedback/Status.js": {
+      "bytes": 16357,
+      "sha256": "6411c308697ba5c68edc28a8eb8a8d07cc32f2a649c0647af6eda15880f98e46"
+    },
+    "plauna/widgets/Feedback/Toast.js": {
+      "bytes": 25695,
+      "sha256": "7de6c808efe8dae511220ccb6dcd9eeabaab6ae89cf61ad767f3cc6a354b23da"
+    },
+    "plauna/widgets/Form/Checkbox.js": {
+      "bytes": 18183,
+      "sha256": "c52b5a8d9225b3f029c8e85c8e8c48466856ffe23ebaf1e571b5fd3574f86078"
+    },
+    "plauna/widgets/Form/Input.js": {
+      "bytes": 279,
+      "sha256": "eae8d5d53f834425c88069e7d55e1e931d05a088e450249fedc206760eb60bda"
+    },
+    "plauna/widgets/Form/Radio.js": {
+      "bytes": 17731,
+      "sha256": "86504d954cb09c4e5a96caf10d882f1e4e04ca115baa3a439ecff647c73618cb"
+    },
+    "plauna/widgets/Form/Rating.js": {
+      "bytes": 18612,
+      "sha256": "5603a334ab93c822208051c4a13f530ed0d817592245be9065d62a7e4f846f24"
+    },
+    "plauna/widgets/Form/Select.js": {
+      "bytes": 30463,
+      "sha256": "224f72dbff5d98d0091f67d99b9314d351ee45035ea1859c22ef31c41cffb2ff"
+    },
+    "plauna/widgets/Form/Slider.js": {
+      "bytes": 316,
+      "sha256": "4e584601fcc0e0367451b4df4fd3791fb949988677363dbdcf3deb25f8af3bfe"
+    },
+    "plauna/widgets/Form/Switch.js": {
+      "bytes": 18847,
+      "sha256": "686ad055b658cb0fefdcdb20030426e29d99063b42f04a007fda2c3b73bca2b9"
+    },
+    "plauna/widgets/Form/Textarea.js": {
+      "bytes": 21002,
+      "sha256": "f205aca0eb1f9c82a8cdbc2686420c20e2b67aee12fbdec2fad2e5a44979f473"
+    },
+    "plauna/widgets/Input/Button.js": {
+      "bytes": 301,
+      "sha256": "acacc7863927878b00688de0bb4c40366aedec5517ed2a7a4d20a0790af7d6b1"
+    },
+    "plauna/widgets/Input/Color.js": {
+      "bytes": 21674,
+      "sha256": "08ae2bab8d2cff390f216d0789877a3a0c762d0d219f9c792806f3819f06fa07"
+    },
+    "plauna/widgets/Input/ColorPicker.js": {
+      "bytes": 14642,
+      "sha256": "0a3e0bb94cf272e129c6fa39622616aaf80a4e29ca86c37e080f53928a6b6532"
+    },
+    "plauna/widgets/Input/Combobox.js": {
+      "bytes": 17363,
+      "sha256": "a2016beab81ca9bdc05f8ba57bbd75ba7c020658b9965cea5d2efac57c596dfe"
+    },
+    "plauna/widgets/Input/Date.js": {
+      "bytes": 28381,
+      "sha256": "bf5a77d5bb668d69d48382e7c87da82e9f3d82b9deac51378fb8b12d0f99f962"
+    },
+    "plauna/widgets/Input/DatePicker.js": {
+      "bytes": 8706,
+      "sha256": "6d858da7c3875f3aab57f1ca9afc85b5789fc97cc5de2cf7c4e2490aad89232f"
+    },
+    "plauna/widgets/Input/File.js": {
+      "bytes": 19571,
+      "sha256": "a7612f5e990a8f4a04f9e41aee15c687be80378ef99b6e6ddf0bd225b35cdbc6"
+    },
+    "plauna/widgets/Input/Input.js": {
+      "bytes": 20003,
+      "sha256": "9d85bdcf52fa0e7b3f9c8ddcb8cebe7ceb3e71a66ae3e83fcc643d9301504dbb"
+    },
+    "plauna/widgets/Input/MultiSelect.js": {
+      "bytes": 13258,
+      "sha256": "811973c384fcd2c4a5b1cab097e56d1160a37dc210e889fbc512a98616f3fc96"
+    },
+    "plauna/widgets/Input/Number.js": {
+      "bytes": 22727,
+      "sha256": "c5c1fccbb15c3b944a4e3f31ffaff37a7a2385694d335858c61133145f9863e1"
+    },
+    "plauna/widgets/Input/Password.js": {
+      "bytes": 11847,
+      "sha256": "6395349aaa35c2015aac7dbfdaacabbf83ea2a0737c47359e7532a6f14346b22"
+    },
+    "plauna/widgets/Input/PinInput.js": {
+      "bytes": 9974,
+      "sha256": "d7af58a6594b745e56994ed4242263ccf68d770a15921555feb7697c29ef4d27"
+    },
+    "plauna/widgets/Input/Range.js": {
+      "bytes": 25650,
+      "sha256": "b0698775cb5654b79c6c3d9df4c7742010a3564f00eb378f924443ae9daaef2a"
+    },
+    "plauna/widgets/Input/RangeSlider.js": {
+      "bytes": 10932,
+      "sha256": "0e33e853aedddf5f61baf3c442bafeb134fdd6d3e23b6e834e47cca49ea4422f"
+    },
+    "plauna/widgets/Input/Search.js": {
+      "bytes": 28125,
+      "sha256": "84dea9342e88e232dd4b87d7e4d5264117882025ecc9a756d3d9541e1dca598d"
+    },
+    "plauna/widgets/Input/SegmentedControl.js": {
+      "bytes": 10791,
+      "sha256": "0ab0a882dd7a6264779e9c8103457fdbc709ef8ee1e5c193c4e71109575166c0"
+    },
+    "plauna/widgets/Input/Tag.js": {
+      "bytes": 23811,
+      "sha256": "fc8d5b7989d14d7f7f37cbb709a5f51728e7329adc3c4366a69601def24e5e08"
+    },
+    "plauna/widgets/Input/Time.js": {
+      "bytes": 32755,
+      "sha256": "ca6117145561059abe6e9c06416e92a204d8a6a6e653e08ac4e1a91a433c6514"
+    },
+    "plauna/widgets/Input/Toggle.js": {
+      "bytes": 4804,
+      "sha256": "78c21bea03bf9783a8fa43d78f6e696d66746b166d00295fe8237393c5696e2a"
+    },
+    "plauna/widgets/Input/Upload.js": {
+      "bytes": 30855,
+      "sha256": "c276b38c80106b9560940af9cccb0e3741dba874c4e00b9b0822f9a4f1424ce6"
+    },
+    "plauna/widgets/Layout/Accordion.js": {
+      "bytes": 9893,
+      "sha256": "f9de981c15eb7dc64ed2ab8474ce82db95d108c3bb19356f462993028a1d365c"
+    },
+    "plauna/widgets/Layout/Collapse.js": {
+      "bytes": 27441,
+      "sha256": "0957aab812319a4bd09bb4fa5e5497259161a37dce6fb4cd087305c360c897f0"
+    },
+    "plauna/widgets/Layout/Container.js": {
+      "bytes": 26981,
+      "sha256": "0dafb3a62d7e90cb298517360f2821cd83e1d0db22972a3bc37222d8b4fa2085"
+    },
+    "plauna/widgets/Layout/Divider.js": {
+      "bytes": 14398,
+      "sha256": "597abe0b53d723759c46806f7437c7b7da0d2a8286be3a84efa0c17ec19c535a"
+    },
+    "plauna/widgets/Layout/Grid.js": {
+      "bytes": 16119,
+      "sha256": "8e448d77ec0152f3ea44f9776c524d4b783e72367cc2556f19f5f598945af915"
+    },
+    "plauna/widgets/Layout/HeaderFooter.js": {
+      "bytes": 35822,
+      "sha256": "6b676b48fa3b8e3a40a6876229448d8e437610e7c54565e46624d9f6c553fd71"
+    },
+    "plauna/widgets/Layout/Marquee.js": {
+      "bytes": 6138,
+      "sha256": "d9bc591d746e8240a9a41d115209161b758da0d7320747ca596c036afc463954"
+    },
+    "plauna/widgets/Layout/Panel.js": {
+      "bytes": 296,
+      "sha256": "4371a1a09148b57f184877ac9da1616da9d8ce67941ca2366387985c1f814c6b"
+    },
+    "plauna/widgets/Layout/Section.js": {
+      "bytes": 29620,
+      "sha256": "f5fbcf4e49cde1b46232ce5e2c139c605aff39f244c97c9ca8803874dc8ff8ef"
+    },
+    "plauna/widgets/Layout/Spacer.js": {
+      "bytes": 14415,
+      "sha256": "e7b3b259104d243359ca974fc4f52f78b58d7fb6ebc4abe01ac93e65b20e718d"
+    },
+    "plauna/widgets/Layout/SplitPane.js": {
+      "bytes": 9682,
+      "sha256": "aa76f51d5d77bb925c3443d4e6701b478e242646b940634afb63c19b90bf31a2"
+    },
+    "plauna/widgets/Layout/Stack.js": {
+      "bytes": 5352,
+      "sha256": "91696c64dcea206d76b02bd65310bf81662623fedded6f7e3df18f3dfd920d0d"
+    },
+    "plauna/widgets/Navigation/Breadcrumb.js": {
+      "bytes": 16725,
+      "sha256": "ae7a127d16a62f0c898c93678fd8144040767239539dada834195819abcc1370"
+    },
+    "plauna/widgets/Navigation/CommandPalette.js": {
+      "bytes": 11967,
+      "sha256": "00a19ac0ec82097008b7d4a4d7bcb53252ed8eaa057de6c9886a8c09cb4c3238"
+    },
+    "plauna/widgets/Navigation/Dropdown.js": {
+      "bytes": 21716,
+      "sha256": "cecdc4c545b6998bac0b2b6fc248a7891890341216644c5ab1f925aea5b4b91b"
+    },
+    "plauna/widgets/Navigation/Menu.js": {
+      "bytes": 24894,
+      "sha256": "5ae2728a1f1d7c0ae5c07e7b6663cc8b0d6e3e857f2934c21bdfae3613912f5c"
+    },
+    "plauna/widgets/Navigation/Menubar.js": {
+      "bytes": 12570,
+      "sha256": "b7a0a16512c3d9d580cfeacd7f683af7d591ee602975f7e60a61fa36c589023d"
+    },
+    "plauna/widgets/Navigation/Navbar.js": {
+      "bytes": 27947,
+      "sha256": "a13f00708511b6682ec68e0e731cc1969da666334da84c967f6c74a42f12308b"
+    },
+    "plauna/widgets/Navigation/Pagination.js": {
+      "bytes": 24615,
+      "sha256": "44da95f6a349060f195a63839121a4d8e29f071ec48dd8a38cb55903e2c5c715"
+    },
+    "plauna/widgets/Navigation/Sidebar.js": {
+      "bytes": 28940,
+      "sha256": "dcedb97c2dacd68011c2b1e6941585aeb009c44259b3637143f0fa7844117e3b"
+    },
+    "plauna/widgets/Navigation/SpeedDial.js": {
+      "bytes": 8981,
+      "sha256": "5b2737ecef8034806559085d56e31d208e52c4d0f45b499d4047a4aabb49e7b9"
+    },
+    "plauna/widgets/Navigation/Stepper.js": {
+      "bytes": 24190,
+      "sha256": "9b53351211998b29331ec01bf597943097cefb7f3649b04c0dfa606655dece5d"
+    },
+    "plauna/widgets/Navigation/TableOfContents.js": {
+      "bytes": 5754,
+      "sha256": "ed1282c6a3785ffe471d261a6cb5659341dac7770305195fadc3202d794878d3"
+    },
+    "plauna/widgets/Navigation/Tabs.js": {
+      "bytes": 19462,
+      "sha256": "8085fd5a6d3ce037a70bb3bb97f4c47a33de7bcdec4240400be9658664bc29ab"
+    },
+    "plauna/widgets/Navigation/Toolbar.js": {
+      "bytes": 10404,
+      "sha256": "89a85f3c1bbccfa15393fa18f9621caed237d38ef636d2ad733b2ee3ce740f1a"
+    },
+    "plauna/widgets/Primitive/Avatar.js": {
+      "bytes": 22469,
+      "sha256": "c90c2591d0f3cfb0c2f9016a871546e7655906a027b652ae7cf6456bd295cc15"
+    },
+    "plauna/widgets/Primitive/AvatarGroup.js": {
+      "bytes": 7478,
+      "sha256": "32cfcd9ef9449a320ca4ff30f35c2424baada22ffc3a491f6e41eb0cc176baeb"
+    },
+    "plauna/widgets/Primitive/Badge.js": {
+      "bytes": 13579,
+      "sha256": "eac51fbe231fd7ba59ddeeaa3af1b984921c5e871b22dd11c46cd50e36505119"
+    },
+    "plauna/widgets/Primitive/Button.js": {
+      "bytes": 27097,
+      "sha256": "8da55db2fcea43b0397b2fb9e058f6c61fdf6fcbea538239083e4030ff431b2a"
+    },
+    "plauna/widgets/Primitive/Chip.js": {
+      "bytes": 21944,
+      "sha256": "1b0d7e2e8b6b52619cb8d9ca63142eb048a32d90be189fbbee591d0f7c42c141"
+    },
+    "plauna/widgets/Primitive/Code.js": {
+      "bytes": 13459,
+      "sha256": "571e91b9f78e515750c75d81db7ce19a5e9a3f6f3e8607997ccf96aac17eae37"
+    },
+    "plauna/widgets/Primitive/Drawer.js": {
+      "bytes": 11009,
+      "sha256": "afd45fa6d4f2276bfce013fb62c4d8bde4486c7d1da521ca7a527bfdb427d2f3"
+    },
+    "plauna/widgets/Primitive/IconButton.js": {
+      "bytes": 5646,
+      "sha256": "e357ecd24ef10dbfa1cc90b20227790c578fde9734acede0c94d9ee514332ccb"
+    },
+    "plauna/widgets/Primitive/Kbd.js": {
+      "bytes": 5774,
+      "sha256": "bc5433ed8d781a0610954a8ca6c52726c0d9edf88ebd12410d266b9dba3b74c7"
+    },
+    "plauna/widgets/Primitive/Modal.js": {
+      "bytes": 17224,
+      "sha256": "4c8f6116595c8a4b55232bd5dd5e55e621c6af0015d179a37607b10ae98b6b59"
+    },
+    "plauna/widgets/Primitive/Panel.js": {
+      "bytes": 21680,
+      "sha256": "f5b54ac8a7e34c769ee68c665500bf60fdc2a8c472887452c59f0b5ece531409"
+    },
+    "plauna/widgets/Primitive/Popover.js": {
+      "bytes": 12251,
+      "sha256": "afeefcb8592845d63233b33365a2415f7a7f12006722ff8a9bc9571b6a80c9a3"
+    },
+    "plauna/widgets/Primitive/Progress.js": {
+      "bytes": 20523,
+      "sha256": "5201a24f219387498af87d8e6b4dd5fb774bc41cdc97955775fb80b52275a068"
+    },
+    "plauna/widgets/Primitive/RollingNumber.js": {
+      "bytes": 6372,
+      "sha256": "2918e93106456dc2342c5642fe49c651127b9d7495da60e36f0339819a7d49e5"
+    },
+    "plauna/widgets/Primitive/Skeleton.js": {
+      "bytes": 17168,
+      "sha256": "3c362dc030674070c57aa9314dd05d36ab276496e161590b6757dbf5d880a6d3"
+    },
+    "plauna/widgets/Primitive/Spoiler.js": {
+      "bytes": 5223,
+      "sha256": "7931e1ffa3c96ff98fcb4ab75023826ff7ca5e7c4560ef6a02c7507c1656e52e"
+    },
+    "plauna/widgets/Primitive/Text.js": {
+      "bytes": 16278,
+      "sha256": "78a9115232d2460d8166c5d60102cb95e3823f324c34d1006ebe5d2e755c2c7f"
+    },
+    "plauna/widgets/Primitive/Tooltip.js": {
+      "bytes": 18160,
+      "sha256": "ad1e93c75eddfe1ef8b4dd1018f25c2dde8bda2045bdfc44d8cb8ceba6b3939c"
+    },
+    "plauna/widgets/WidgetConfig.js": {
+      "bytes": 18602,
+      "sha256": "bfe1536e8ee978f17e59a523c0e4f36ad1d580475449f68078099eaf3d5b21d5"
+    },
+    "plauna/widgets/WidgetRenderer.js": {
+      "bytes": 1536,
+      "sha256": "20ba10021692b0c62265325ad4897bf2d021ba50792b74b4c4bbe95f45da976b"
+    },
+    "plauna/widgets/WidgetStyleManager.js": {
+      "bytes": 49521,
+      "sha256": "2d678da052d2de12ebfdb27b7f40ad1dbd925a147396329f37f3eb5ea814be97"
+    },
+    "plauna/widgets/index.js": {
+      "bytes": 16484,
+      "sha256": "2ca526d5ea99aab74418bd94d22e6c47ca5dafc0291dca3df75fc383f68d3bdc"
+    },
+    "plauna/widgets/shared/appearance.js": {
+      "bytes": 19552,
+      "sha256": "59faa1b7ad6592468baaac048524f5eca6236eab4ee09fd059fed713680226a8"
+    },
+    "plauna/workspace/Panel.js": {
+      "bytes": 46011,
+      "sha256": "0b084369b4045c02f7d8eea4fd0b78163f75119e268c90f5c957f3a174112ebd"
+    },
+    "plauna/workspace/PanelLayout.js": {
+      "bytes": 7797,
+      "sha256": "8e119059a48704f7d2256d4c78f1d8a0b127abf2b4dfdded31a739765b2b2d5b"
+    },
+    "plauna/workspace/Workspace.js": {
+      "bytes": 7649,
+      "sha256": "6428fed9c6ff4f299b4724f73ed546c13d959bfaf8cc7737bd5c930f70f1267a"
+    },
+    "plauna/workspace/WorkspaceCompositor.js": {
+      "bytes": 6938,
+      "sha256": "f324bf7c72bb3d84c6c344b9565c94a4a73f756fbf95a11d570a21034b46d0df"
+    },
+    "plauna/workspace/WorkspaceManager.js": {
+      "bytes": 11178,
+      "sha256": "e71d3572b18726ac09d3718c2eeff7c5684d54402935545b97b5e449d4ad7386"
+    },
+    "plauna/workspace/WorkspaceSwitcher.js": {
+      "bytes": 8829,
+      "sha256": "78fa60d561b541aba4ba6b2579fa11bc8557615b781456335539442b88216b0e"
+    },
+    "plauna/workspace/index.js": {
+      "bytes": 754,
+      "sha256": "126e2f147f0364226e07c712146050ec7c340f686c4bf55544e7135a600f1c2b"
+    },
+    "tests/plauna-gpu-input.html": {
+      "bytes": 856,
+      "sha256": "3b77fc18b91775a43a6d59d92f8355036efd9ce38d72f1376be51c4e1a956d98"
+    },
+    "tests/plauna-gpu-input.js": {
+      "bytes": 4596,
+      "sha256": "e1754c85902736ac674ab5e51fba6dc6e472f3d25ab10e2c3b550451441aa95b"
+    },
+    "tests/plauna-layout-parity.html": {
+      "bytes": 1296,
+      "sha256": "a9ca3bd6785cfbdb1801e8996d797d1a8de2c40a444dbf65767f93e7587040ef"
+    },
+    "tests/plauna-layout-parity.test.js": {
+      "bytes": 104163,
+      "sha256": "f8dfddc92912b833a5421d840654d8e1086b562e9f370534251974ab7269e7cc"
+    },
+    "tests/plauna_browser_support.py": {
+      "bytes": 4319,
+      "sha256": "439f6301db0877b97bea74ae8484519bc5ab8e3d5609adf6e7c73e3c1b5871ea"
+    },
+    "tests/storage/performance_run_lock.py": {
+      "bytes": 4606,
+      "sha256": "c024e0e238d2eaa75a084c22627fe99b60d89c9cf8f641400e1fa2076b235cfa"
+    },
+    "tests/test_plauna_button_browser.py": {
+      "bytes": 15876,
+      "sha256": "97e891536e1bf2b5a7fe30efa465d54e87d46c8a8de73237818fdc4687217c64"
+    },
+    "tests/test_plauna_faces_bars_parity.py": {
+      "bytes": 57092,
+      "sha256": "76e7c48675387418666a9b7a519363161aa85e65588f47cf218b0ada42e7046e"
+    },
+    "tests/test_plauna_focus_ring_parity.py": {
+      "bytes": 11294,
+      "sha256": "5c8d0295d9f4457b36b41a104e7e034e8f9d82a48b6578611b66ff664ec2b82e"
+    },
+    "tests/test_plauna_gpu_input.py": {
+      "bytes": 8210,
+      "sha256": "c2857b9e917bd14659c02d146df41b1546b19dc0f42f9868d64c3cc925472d50"
+    },
+    "tests/test_plauna_layout_paint_parity.py": {
+      "bytes": 15086,
+      "sha256": "5ee88677a7068d49ac6e14c4ec713ab5b875f01c458e5865e2f968d537cb7bac"
+    },
+    "tests/test_plauna_layout_scrollbars.py": {
+      "bytes": 37344,
+      "sha256": "c7060c6be661c1a6c8dcf81aa20618011065f94be096fdeb62b32936ca694db2"
+    },
+    "tests/test_plauna_native_paint_parity.py": {
+      "bytes": 8779,
+      "sha256": "d22ca5589f5a6425f517017075e00c3b2bb00221d3c52272eef60ad029d6b29d"
+    },
+    "tests/test_plauna_native_well.py": {
+      "bytes": 69126,
+      "sha256": "0e8b372209bbe410a0d6eb762f7ba51243ef647d7c3a152fa11fa2d6ae9b88eb"
+    },
+    "tests/test_plauna_real_scaling.py": {
+      "bytes": 16282,
+      "sha256": "81b8e88f9bec5581b697803b06eb13432bf8ca17ad598c2acde3c932cfc9a449"
+    },
+    "tests/test_plauna_style_fields_scrollbars.py": {
+      "bytes": 9794,
+      "sha256": "006f040c8794b3108356cf664fdb03f0605548b9c920126ac67966a7c15b9cd7"
+    },
+    "tests/test_plauna_surface_sticky.py": {
+      "bytes": 17449,
+      "sha256": "b5458a01392aa009e2a05a64b1a46e9d662ea1de0aef0b7a98a72d0a4fa8fb0f"
+    },
+    "tests/test_plauna_text_features.py": {
+      "bytes": 35663,
+      "sha256": "9a56fb5e21ab4fd3694dac0475b2c5cc86370ec107298f4510465d9280f2a49f"
+    },
+    "webgpu-os/apps/the-virtual-realm/contracts/CanonicalRealmEncoding.js": {
+      "bytes": 37863,
+      "sha256": "256d4c41a1e5ecb2fc623ec62dc2a9c93dcf5656b15e5c8062dc1ae2549ad356"
+    },
+    "webgpu-os/apps/the-virtual-realm/contracts/RealmContractCapturedOperations.js": {
+      "bytes": 16986,
+      "sha256": "6b379c52eda1b357d985c12e1cd2e7af9eec919bb07d223e4ab4692e306867e1"
+    },
+    "webgpu-os/apps/the-virtual-realm/contracts/RealmContractError.js": {
+      "bytes": 8122,
+      "sha256": "c5dc6c48a21f73fdbc22420d282f17b793eb270214ce6bb6abd180c6fb9b733d"
+    },
+    "webgpu-os/apps/the-virtual-realm/contracts/RealmContractLimits.js": {
+      "bytes": 5041,
+      "sha256": "536eb5952baca4a450fb5652eb17d4ccc15d8da78587d897c7ee6e308216db99"
+    },
+    "webgpu-os/apps/the-virtual-realm/contracts/RealmContractValuePreflight.js": {
+      "bytes": 17548,
+      "sha256": "a9365c444a15f7abd544f7bc2f7a72bebe2949046523f3a0d7134ebde4adfb5b"
+    },
+    "webgpu-os/shared/SmartContextAssist.js": {
+      "bytes": 4031,
+      "sha256": "013d6caaf249ab8b3f6ff346dacc6f61cca2d1735e8082c2921a64078352c5a8"
+    }
+  },
+  "source_snapshot_sha256": "c5646d10034880ccb4fd088f50303eeb5131d3e0181557d40376971376279261",
+  "validation_files": [
+    "bundler/tests/__init__.py",
+    "bundler/tests/test_plauna_export.py",
+    "bundler/tests/test_plauna_distribution_browser.py",
+    "tests/plauna_browser_support.py",
+    "tests/storage/performance_run_lock.py",
+    "tests/test_plauna_button_browser.py",
+    "tests/test_plauna_faces_bars_parity.py",
+    "tests/test_plauna_focus_ring_parity.py",
+    "tests/test_plauna_gpu_input.py",
+    "tests/test_plauna_layout_paint_parity.py",
+    "tests/test_plauna_layout_scrollbars.py",
+    "tests/test_plauna_native_paint_parity.py",
+    "tests/test_plauna_native_well.py",
+    "tests/test_plauna_real_scaling.py",
+    "tests/test_plauna_style_fields_scrollbars.py",
+    "tests/test_plauna_surface_sticky.py",
+    "tests/test_plauna_text_features.py",
+    "tests/plauna-gpu-input.html",
+    "tests/plauna-gpu-input.js",
+    "tests/plauna-layout-parity.html",
+    "tests/plauna-layout-parity.test.js"
+  ],
+  "version": "0.3.0"
+}

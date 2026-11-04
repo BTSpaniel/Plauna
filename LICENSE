@@ -1,3 +1,11 @@
+Plauna standalone distribution: license scope
+
+The MIT license below applies to the Plauna code marked SPDX-License-Identifier:
+MIT. Included Particle Engine support modules and Python build tools retain
+their own per-file license identifiers. The Particle Realms Alpha terms are in
+LICENSES/LicenseRef-ParticleRealms-Alpha.txt. Third-party notices are in
+NOTICE.md. The MIT grant for Plauna does not relicense these dependencies.
+
 MIT License
 
 Copyright (c) 2026 BTSpaniel
@@ -19,3 +27,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
